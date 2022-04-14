@@ -1,0 +1,594 @@
+,concept:name,time:timestamp,case:concept:name
+0,checkif claimantis insured,1970-04-27 01:46:40,0
+1,rejectclaim,1970-04-27 01:46:41,0
+2,checkif claimantis insured,1970-04-27 01:46:42,1
+3,rejectclaim,1970-04-27 01:46:43,1
+4,checkif claimantis insured,1970-04-27 01:46:44,2
+5,rejectclaim,1970-04-27 01:46:45,2
+6,checkif claimantis insured,1970-04-27 01:46:46,3
+7,rejectclaim,1970-04-27 01:46:47,3
+8,checkif claimantis insured,1970-04-27 01:46:48,4
+9,rejectclaim,1970-04-27 01:46:49,4
+10,checkif claimantis insured,1970-04-27 01:46:50,5
+11,acceptclaim,1970-04-27 01:46:51,5
+12,evaluateSeverityof claim,1970-04-27 01:46:52,5
+13,sendrelevantforms,1970-04-27 01:46:53,5
+14,receiverelevantforms,1970-04-27 01:46:54,5
+15,check forcompleteness,1970-04-27 01:46:55,5
+16,informclaimant,1970-04-27 01:46:56,5
+17,receiveupdatedforms,1970-04-27 01:46:57,5
+18,check forcompleteness,1970-04-27 01:46:58,5
+19,informclaimant,1970-04-27 01:46:59,5
+20,receiveupdatedforms,1970-04-27 01:47:00,5
+21,check forcompleteness,1970-04-27 01:47:01,5
+22,registerclaim,1970-04-27 01:47:02,5
+23,checkif claimantis insured,1970-04-27 01:47:03,6
+24,rejectclaim,1970-04-27 01:47:04,6
+25,checkif claimantis insured,1970-04-27 01:47:05,7
+26,acceptclaim,1970-04-27 01:47:06,7
+27,evaluateSeverityof claim,1970-04-27 01:47:07,7
+28,sendrelevantforms,1970-04-27 01:47:08,7
+29,receiverelevantforms,1970-04-27 01:47:09,7
+30,check forcompleteness,1970-04-27 01:47:10,7
+31,informclaimant,1970-04-27 01:47:11,7
+32,receiveupdatedforms,1970-04-27 01:47:12,7
+33,check forcompleteness,1970-04-27 01:47:13,7
+34,registerclaim,1970-04-27 01:47:14,7
+35,checkif claimantis insured,1970-04-27 01:47:15,8
+36,rejectclaim,1970-04-27 01:47:16,8
+37,checkif claimantis insured,1970-04-27 01:47:17,9
+38,rejectclaim,1970-04-27 01:47:18,9
+39,checkif claimantis insured,1970-04-27 01:47:19,10
+40,acceptclaim,1970-04-27 01:47:20,10
+41,evaluateSeverityof claim,1970-04-27 01:47:21,10
+42,sendrelevantforms,1970-04-27 01:47:22,10
+43,receiverelevantforms,1970-04-27 01:47:23,10
+44,check forcompleteness,1970-04-27 01:47:24,10
+45,registerclaim,1970-04-27 01:47:25,10
+46,checkif claimantis insured,1970-04-27 01:47:26,11
+47,acceptclaim,1970-04-27 01:47:27,11
+48,evaluateSeverityof claim,1970-04-27 01:47:28,11
+49,sendrelevantforms,1970-04-27 01:47:29,11
+50,receiverelevantforms,1970-04-27 01:47:30,11
+51,check forcompleteness,1970-04-27 01:47:31,11
+52,informclaimant,1970-04-27 01:47:32,11
+53,receiveupdatedforms,1970-04-27 01:47:33,11
+54,check forcompleteness,1970-04-27 01:47:34,11
+55,informclaimant,1970-04-27 01:47:35,11
+56,receiveupdatedforms,1970-04-27 01:47:36,11
+57,check forcompleteness,1970-04-27 01:47:37,11
+58,informclaimant,1970-04-27 01:47:38,11
+59,receiveupdatedforms,1970-04-27 01:47:39,11
+60,check forcompleteness,1970-04-27 01:47:40,11
+61,informclaimant,1970-04-27 01:47:41,11
+62,receiveupdatedforms,1970-04-27 01:47:42,11
+63,check forcompleteness,1970-04-27 01:47:43,11
+64,informclaimant,1970-04-27 01:47:44,11
+65,receiveupdatedforms,1970-04-27 01:47:45,11
+66,check forcompleteness,1970-04-27 01:47:46,11
+67,registerclaim,1970-04-27 01:47:47,11
+68,checkif claimantis insured,1970-04-27 01:47:48,12
+69,rejectclaim,1970-04-27 01:47:49,12
+70,checkif claimantis insured,1970-04-27 01:47:50,13
+71,rejectclaim,1970-04-27 01:47:51,13
+72,checkif claimantis insured,1970-04-27 01:47:52,14
+73,acceptclaim,1970-04-27 01:47:53,14
+74,evaluateSeverityof claim,1970-04-27 01:47:54,14
+75,sendrelevantforms,1970-04-27 01:47:55,14
+76,receiverelevantforms,1970-04-27 01:47:56,14
+77,check forcompleteness,1970-04-27 01:47:57,14
+78,registerclaim,1970-04-27 01:47:58,14
+79,checkif claimantis insured,1970-04-27 01:47:59,15
+80,rejectclaim,1970-04-27 01:48:00,15
+81,checkif claimantis insured,1970-04-27 01:48:01,16
+82,acceptclaim,1970-04-27 01:48:02,16
+83,evaluateSeverityof claim,1970-04-27 01:48:03,16
+84,sendrelevantforms,1970-04-27 01:48:04,16
+85,receiverelevantforms,1970-04-27 01:48:05,16
+86,check forcompleteness,1970-04-27 01:48:06,16
+87,registerclaim,1970-04-27 01:48:07,16
+88,checkif claimantis insured,1970-04-27 01:48:08,17
+89,acceptclaim,1970-04-27 01:48:09,17
+90,evaluateSeverityof claim,1970-04-27 01:48:10,17
+91,sendrelevantforms,1970-04-27 01:48:11,17
+92,receiverelevantforms,1970-04-27 01:48:12,17
+93,check forcompleteness,1970-04-27 01:48:13,17
+94,informclaimant,1970-04-27 01:48:14,17
+95,receiveupdatedforms,1970-04-27 01:48:15,17
+96,check forcompleteness,1970-04-27 01:48:16,17
+97,informclaimant,1970-04-27 01:48:17,17
+98,receiveupdatedforms,1970-04-27 01:48:18,17
+99,check forcompleteness,1970-04-27 01:48:19,17
+100,informclaimant,1970-04-27 01:48:20,17
+101,receiveupdatedforms,1970-04-27 01:48:21,17
+102,check forcompleteness,1970-04-27 01:48:22,17
+103,informclaimant,1970-04-27 01:48:23,17
+104,receiveupdatedforms,1970-04-27 01:48:24,17
+105,check forcompleteness,1970-04-27 01:48:25,17
+106,registerclaim,1970-04-27 01:48:26,17
+107,checkif claimantis insured,1970-04-27 01:48:27,18
+108,acceptclaim,1970-04-27 01:48:28,18
+109,evaluateSeverityof claim,1970-04-27 01:48:29,18
+110,sendrelevantforms,1970-04-27 01:48:30,18
+111,receiverelevantforms,1970-04-27 01:48:31,18
+112,check forcompleteness,1970-04-27 01:48:32,18
+113,registerclaim,1970-04-27 01:48:33,18
+114,checkif claimantis insured,1970-04-27 01:48:34,19
+115,acceptclaim,1970-04-27 01:48:35,19
+116,evaluateSeverityof claim,1970-04-27 01:48:36,19
+117,sendrelevantforms,1970-04-27 01:48:37,19
+118,receiverelevantforms,1970-04-27 01:48:38,19
+119,check forcompleteness,1970-04-27 01:48:39,19
+120,registerclaim,1970-04-27 01:48:40,19
+121,checkif claimantis insured,1970-04-27 01:48:41,20
+122,acceptclaim,1970-04-27 01:48:42,20
+123,evaluateSeverityof claim,1970-04-27 01:48:43,20
+124,sendrelevantforms,1970-04-27 01:48:44,20
+125,receiverelevantforms,1970-04-27 01:48:45,20
+126,check forcompleteness,1970-04-27 01:48:46,20
+127,informclaimant,1970-04-27 01:48:47,20
+128,receiveupdatedforms,1970-04-27 01:48:48,20
+129,check forcompleteness,1970-04-27 01:48:49,20
+130,informclaimant,1970-04-27 01:48:50,20
+131,receiveupdatedforms,1970-04-27 01:48:51,20
+132,check forcompleteness,1970-04-27 01:48:52,20
+133,informclaimant,1970-04-27 01:48:53,20
+134,receiveupdatedforms,1970-04-27 01:48:54,20
+135,check forcompleteness,1970-04-27 01:48:55,20
+136,informclaimant,1970-04-27 01:48:56,20
+137,receiveupdatedforms,1970-04-27 01:48:57,20
+138,check forcompleteness,1970-04-27 01:48:58,20
+139,registerclaim,1970-04-27 01:48:59,20
+140,checkif claimantis insured,1970-04-27 01:49:00,21
+141,rejectclaim,1970-04-27 01:49:01,21
+142,checkif claimantis insured,1970-04-27 01:49:02,22
+143,acceptclaim,1970-04-27 01:49:03,22
+144,evaluateSeverityof claim,1970-04-27 01:49:04,22
+145,sendrelevantforms,1970-04-27 01:49:05,22
+146,receiverelevantforms,1970-04-27 01:49:06,22
+147,check forcompleteness,1970-04-27 01:49:07,22
+148,registerclaim,1970-04-27 01:49:08,22
+149,checkif claimantis insured,1970-04-27 01:49:09,23
+150,acceptclaim,1970-04-27 01:49:10,23
+151,evaluateSeverityof claim,1970-04-27 01:49:11,23
+152,sendrelevantforms,1970-04-27 01:49:12,23
+153,receiverelevantforms,1970-04-27 01:49:13,23
+154,check forcompleteness,1970-04-27 01:49:14,23
+155,registerclaim,1970-04-27 01:49:15,23
+156,checkif claimantis insured,1970-04-27 01:49:16,24
+157,acceptclaim,1970-04-27 01:49:17,24
+158,evaluateSeverityof claim,1970-04-27 01:49:18,24
+159,sendrelevantforms,1970-04-27 01:49:19,24
+160,receiverelevantforms,1970-04-27 01:49:20,24
+161,check forcompleteness,1970-04-27 01:49:21,24
+162,informclaimant,1970-04-27 01:49:22,24
+163,receiveupdatedforms,1970-04-27 01:49:23,24
+164,check forcompleteness,1970-04-27 01:49:24,24
+165,registerclaim,1970-04-27 01:49:25,24
+166,checkif claimantis insured,1970-04-27 01:49:26,25
+167,rejectclaim,1970-04-27 01:49:27,25
+168,checkif claimantis insured,1970-04-27 01:49:28,26
+169,acceptclaim,1970-04-27 01:49:29,26
+170,evaluateSeverityof claim,1970-04-27 01:49:30,26
+171,sendrelevantforms,1970-04-27 01:49:31,26
+172,receiverelevantforms,1970-04-27 01:49:32,26
+173,check forcompleteness,1970-04-27 01:49:33,26
+174,registerclaim,1970-04-27 01:49:34,26
+175,checkif claimantis insured,1970-04-27 01:49:35,27
+176,acceptclaim,1970-04-27 01:49:36,27
+177,evaluateSeverityof claim,1970-04-27 01:49:37,27
+178,sendrelevantforms,1970-04-27 01:49:38,27
+179,receiverelevantforms,1970-04-27 01:49:39,27
+180,check forcompleteness,1970-04-27 01:49:40,27
+181,registerclaim,1970-04-27 01:49:41,27
+182,checkif claimantis insured,1970-04-27 01:49:42,28
+183,acceptclaim,1970-04-27 01:49:43,28
+184,evaluateSeverityof claim,1970-04-27 01:49:44,28
+185,sendrelevantforms,1970-04-27 01:49:45,28
+186,receiverelevantforms,1970-04-27 01:49:46,28
+187,check forcompleteness,1970-04-27 01:49:47,28
+188,registerclaim,1970-04-27 01:49:48,28
+189,checkif claimantis insured,1970-04-27 01:49:49,29
+190,acceptclaim,1970-04-27 01:49:50,29
+191,evaluateSeverityof claim,1970-04-27 01:49:51,29
+192,sendrelevantforms,1970-04-27 01:49:52,29
+193,receiverelevantforms,1970-04-27 01:49:53,29
+194,check forcompleteness,1970-04-27 01:49:54,29
+195,informclaimant,1970-04-27 01:49:55,29
+196,receiveupdatedforms,1970-04-27 01:49:56,29
+197,check forcompleteness,1970-04-27 01:49:57,29
+198,registerclaim,1970-04-27 01:49:58,29
+199,checkif claimantis insured,1970-04-27 01:49:59,30
+200,acceptclaim,1970-04-27 01:50:00,30
+201,evaluateSeverityof claim,1970-04-27 01:50:01,30
+202,sendrelevantforms,1970-04-27 01:50:02,30
+203,receiverelevantforms,1970-04-27 01:50:03,30
+204,check forcompleteness,1970-04-27 01:50:04,30
+205,registerclaim,1970-04-27 01:50:05,30
+206,checkif claimantis insured,1970-04-27 01:50:06,31
+207,rejectclaim,1970-04-27 01:50:07,31
+208,checkif claimantis insured,1970-04-27 01:50:08,32
+209,rejectclaim,1970-04-27 01:50:09,32
+210,checkif claimantis insured,1970-04-27 01:50:10,33
+211,acceptclaim,1970-04-27 01:50:11,33
+212,evaluateSeverityof claim,1970-04-27 01:50:12,33
+213,sendrelevantforms,1970-04-27 01:50:13,33
+214,receiverelevantforms,1970-04-27 01:50:14,33
+215,check forcompleteness,1970-04-27 01:50:15,33
+216,informclaimant,1970-04-27 01:50:16,33
+217,receiveupdatedforms,1970-04-27 01:50:17,33
+218,check forcompleteness,1970-04-27 01:50:18,33
+219,informclaimant,1970-04-27 01:50:19,33
+220,receiveupdatedforms,1970-04-27 01:50:20,33
+221,check forcompleteness,1970-04-27 01:50:21,33
+222,informclaimant,1970-04-27 01:50:22,33
+223,receiveupdatedforms,1970-04-27 01:50:23,33
+224,check forcompleteness,1970-04-27 01:50:24,33
+225,informclaimant,1970-04-27 01:50:25,33
+226,receiveupdatedforms,1970-04-27 01:50:26,33
+227,check forcompleteness,1970-04-27 01:50:27,33
+228,informclaimant,1970-04-27 01:50:28,33
+229,receiveupdatedforms,1970-04-27 01:50:29,33
+230,check forcompleteness,1970-04-27 01:50:30,33
+231,registerclaim,1970-04-27 01:50:31,33
+232,checkif claimantis insured,1970-04-27 01:50:32,34
+233,rejectclaim,1970-04-27 01:50:33,34
+234,checkif claimantis insured,1970-04-27 01:50:34,35
+235,rejectclaim,1970-04-27 01:50:35,35
+236,checkif claimantis insured,1970-04-27 01:50:36,36
+237,rejectclaim,1970-04-27 01:50:37,36
+238,checkif claimantis insured,1970-04-27 01:50:38,37
+239,acceptclaim,1970-04-27 01:50:39,37
+240,evaluateSeverityof claim,1970-04-27 01:50:40,37
+241,sendrelevantforms,1970-04-27 01:50:41,37
+242,receiverelevantforms,1970-04-27 01:50:42,37
+243,check forcompleteness,1970-04-27 01:50:43,37
+244,registerclaim,1970-04-27 01:50:44,37
+245,checkif claimantis insured,1970-04-27 01:50:45,38
+246,acceptclaim,1970-04-27 01:50:46,38
+247,evaluateSeverityof claim,1970-04-27 01:50:47,38
+248,sendrelevantforms,1970-04-27 01:50:48,38
+249,receiverelevantforms,1970-04-27 01:50:49,38
+250,check forcompleteness,1970-04-27 01:50:50,38
+251,informclaimant,1970-04-27 01:50:51,38
+252,receiveupdatedforms,1970-04-27 01:50:52,38
+253,check forcompleteness,1970-04-27 01:50:53,38
+254,informclaimant,1970-04-27 01:50:54,38
+255,receiveupdatedforms,1970-04-27 01:50:55,38
+256,check forcompleteness,1970-04-27 01:50:56,38
+257,informclaimant,1970-04-27 01:50:57,38
+258,receiveupdatedforms,1970-04-27 01:50:58,38
+259,check forcompleteness,1970-04-27 01:50:59,38
+260,registerclaim,1970-04-27 01:51:00,38
+261,checkif claimantis insured,1970-04-27 01:51:01,39
+262,rejectclaim,1970-04-27 01:51:02,39
+263,checkif claimantis insured,1970-04-27 01:51:03,40
+264,rejectclaim,1970-04-27 01:51:04,40
+265,checkif claimantis insured,1970-04-27 01:51:05,41
+266,acceptclaim,1970-04-27 01:51:06,41
+267,evaluateSeverityof claim,1970-04-27 01:51:07,41
+268,sendrelevantforms,1970-04-27 01:51:08,41
+269,receiverelevantforms,1970-04-27 01:51:09,41
+270,check forcompleteness,1970-04-27 01:51:10,41
+271,registerclaim,1970-04-27 01:51:11,41
+272,checkif claimantis insured,1970-04-27 01:51:12,42
+273,rejectclaim,1970-04-27 01:51:13,42
+274,checkif claimantis insured,1970-04-27 01:51:14,43
+275,rejectclaim,1970-04-27 01:51:15,43
+276,checkif claimantis insured,1970-04-27 01:51:16,44
+277,acceptclaim,1970-04-27 01:51:17,44
+278,evaluateSeverityof claim,1970-04-27 01:51:18,44
+279,sendrelevantforms,1970-04-27 01:51:19,44
+280,receiverelevantforms,1970-04-27 01:51:20,44
+281,check forcompleteness,1970-04-27 01:51:21,44
+282,informclaimant,1970-04-27 01:51:22,44
+283,receiveupdatedforms,1970-04-27 01:51:23,44
+284,check forcompleteness,1970-04-27 01:51:24,44
+285,informclaimant,1970-04-27 01:51:25,44
+286,receiveupdatedforms,1970-04-27 01:51:26,44
+287,check forcompleteness,1970-04-27 01:51:27,44
+288,informclaimant,1970-04-27 01:51:28,44
+289,receiveupdatedforms,1970-04-27 01:51:29,44
+290,check forcompleteness,1970-04-27 01:51:30,44
+291,registerclaim,1970-04-27 01:51:31,44
+292,checkif claimantis insured,1970-04-27 01:51:32,45
+293,acceptclaim,1970-04-27 01:51:33,45
+294,evaluateSeverityof claim,1970-04-27 01:51:34,45
+295,sendrelevantforms,1970-04-27 01:51:35,45
+296,receiverelevantforms,1970-04-27 01:51:36,45
+297,check forcompleteness,1970-04-27 01:51:37,45
+298,informclaimant,1970-04-27 01:51:38,45
+299,receiveupdatedforms,1970-04-27 01:51:39,45
+300,check forcompleteness,1970-04-27 01:51:40,45
+301,informclaimant,1970-04-27 01:51:41,45
+302,receiveupdatedforms,1970-04-27 01:51:42,45
+303,check forcompleteness,1970-04-27 01:51:43,45
+304,informclaimant,1970-04-27 01:51:44,45
+305,receiveupdatedforms,1970-04-27 01:51:45,45
+306,check forcompleteness,1970-04-27 01:51:46,45
+307,informclaimant,1970-04-27 01:51:47,45
+308,receiveupdatedforms,1970-04-27 01:51:48,45
+309,check forcompleteness,1970-04-27 01:51:49,45
+310,informclaimant,1970-04-27 01:51:50,45
+311,receiveupdatedforms,1970-04-27 01:51:51,45
+312,check forcompleteness,1970-04-27 01:51:52,45
+313,informclaimant,1970-04-27 01:51:53,45
+314,receiveupdatedforms,1970-04-27 01:51:54,45
+315,check forcompleteness,1970-04-27 01:51:55,45
+316,informclaimant,1970-04-27 01:51:56,45
+317,receiveupdatedforms,1970-04-27 01:51:57,45
+318,check forcompleteness,1970-04-27 01:51:58,45
+319,registerclaim,1970-04-27 01:51:59,45
+320,checkif claimantis insured,1970-04-27 01:52:00,46
+321,rejectclaim,1970-04-27 01:52:01,46
+322,checkif claimantis insured,1970-04-27 01:52:02,47
+323,acceptclaim,1970-04-27 01:52:03,47
+324,evaluateSeverityof claim,1970-04-27 01:52:04,47
+325,sendrelevantforms,1970-04-27 01:52:05,47
+326,receiverelevantforms,1970-04-27 01:52:06,47
+327,check forcompleteness,1970-04-27 01:52:07,47
+328,informclaimant,1970-04-27 01:52:08,47
+329,receiveupdatedforms,1970-04-27 01:52:09,47
+330,check forcompleteness,1970-04-27 01:52:10,47
+331,registerclaim,1970-04-27 01:52:11,47
+332,checkif claimantis insured,1970-04-27 01:52:12,48
+333,rejectclaim,1970-04-27 01:52:13,48
+334,checkif claimantis insured,1970-04-27 01:52:14,49
+335,acceptclaim,1970-04-27 01:52:15,49
+336,evaluateSeverityof claim,1970-04-27 01:52:16,49
+337,sendrelevantforms,1970-04-27 01:52:17,49
+338,receiverelevantforms,1970-04-27 01:52:18,49
+339,check forcompleteness,1970-04-27 01:52:19,49
+340,registerclaim,1970-04-27 01:52:20,49
+341,checkif claimantis insured,1970-04-27 01:52:21,50
+342,rejectclaim,1970-04-27 01:52:22,50
+343,checkif claimantis insured,1970-04-27 01:52:23,51
+344,rejectclaim,1970-04-27 01:52:24,51
+345,checkif claimantis insured,1970-04-27 01:52:25,52
+346,rejectclaim,1970-04-27 01:52:26,52
+347,checkif claimantis insured,1970-04-27 01:52:27,53
+348,acceptclaim,1970-04-27 01:52:28,53
+349,evaluateSeverityof claim,1970-04-27 01:52:29,53
+350,sendrelevantforms,1970-04-27 01:52:30,53
+351,receiverelevantforms,1970-04-27 01:52:31,53
+352,check forcompleteness,1970-04-27 01:52:32,53
+353,registerclaim,1970-04-27 01:52:33,53
+354,checkif claimantis insured,1970-04-27 01:52:34,54
+355,rejectclaim,1970-04-27 01:52:35,54
+356,checkif claimantis insured,1970-04-27 01:52:36,55
+357,rejectclaim,1970-04-27 01:52:37,55
+358,checkif claimantis insured,1970-04-27 01:52:38,56
+359,acceptclaim,1970-04-27 01:52:39,56
+360,evaluateSeverityof claim,1970-04-27 01:52:40,56
+361,sendrelevantforms,1970-04-27 01:52:41,56
+362,receiverelevantforms,1970-04-27 01:52:42,56
+363,check forcompleteness,1970-04-27 01:52:43,56
+364,registerclaim,1970-04-27 01:52:44,56
+365,checkif claimantis insured,1970-04-27 01:52:45,57
+366,rejectclaim,1970-04-27 01:52:46,57
+367,checkif claimantis insured,1970-04-27 01:52:47,58
+368,acceptclaim,1970-04-27 01:52:48,58
+369,evaluateSeverityof claim,1970-04-27 01:52:49,58
+370,sendrelevantforms,1970-04-27 01:52:50,58
+371,receiverelevantforms,1970-04-27 01:52:51,58
+372,check forcompleteness,1970-04-27 01:52:52,58
+373,informclaimant,1970-04-27 01:52:53,58
+374,receiveupdatedforms,1970-04-27 01:52:54,58
+375,check forcompleteness,1970-04-27 01:52:55,58
+376,registerclaim,1970-04-27 01:52:56,58
+377,checkif claimantis insured,1970-04-27 01:52:57,59
+378,rejectclaim,1970-04-27 01:52:58,59
+379,checkif claimantis insured,1970-04-27 01:52:59,60
+380,acceptclaim,1970-04-27 01:53:00,60
+381,evaluateSeverityof claim,1970-04-27 01:53:01,60
+382,sendrelevantforms,1970-04-27 01:53:02,60
+383,receiverelevantforms,1970-04-27 01:53:03,60
+384,check forcompleteness,1970-04-27 01:53:04,60
+385,informclaimant,1970-04-27 01:53:05,60
+386,receiveupdatedforms,1970-04-27 01:53:06,60
+387,check forcompleteness,1970-04-27 01:53:07,60
+388,registerclaim,1970-04-27 01:53:08,60
+389,checkif claimantis insured,1970-04-27 01:53:09,61
+390,acceptclaim,1970-04-27 01:53:10,61
+391,evaluateSeverityof claim,1970-04-27 01:53:11,61
+392,sendrelevantforms,1970-04-27 01:53:12,61
+393,receiverelevantforms,1970-04-27 01:53:13,61
+394,check forcompleteness,1970-04-27 01:53:14,61
+395,registerclaim,1970-04-27 01:53:15,61
+396,checkif claimantis insured,1970-04-27 01:53:16,62
+397,rejectclaim,1970-04-27 01:53:17,62
+398,checkif claimantis insured,1970-04-27 01:53:18,63
+399,rejectclaim,1970-04-27 01:53:19,63
+400,checkif claimantis insured,1970-04-27 01:53:20,64
+401,rejectclaim,1970-04-27 01:53:21,64
+402,checkif claimantis insured,1970-04-27 01:53:22,65
+403,acceptclaim,1970-04-27 01:53:23,65
+404,evaluateSeverityof claim,1970-04-27 01:53:24,65
+405,sendrelevantforms,1970-04-27 01:53:25,65
+406,receiverelevantforms,1970-04-27 01:53:26,65
+407,check forcompleteness,1970-04-27 01:53:27,65
+408,informclaimant,1970-04-27 01:53:28,65
+409,receiveupdatedforms,1970-04-27 01:53:29,65
+410,check forcompleteness,1970-04-27 01:53:30,65
+411,informclaimant,1970-04-27 01:53:31,65
+412,receiveupdatedforms,1970-04-27 01:53:32,65
+413,check forcompleteness,1970-04-27 01:53:33,65
+414,informclaimant,1970-04-27 01:53:34,65
+415,receiveupdatedforms,1970-04-27 01:53:35,65
+416,check forcompleteness,1970-04-27 01:53:36,65
+417,registerclaim,1970-04-27 01:53:37,65
+418,checkif claimantis insured,1970-04-27 01:53:38,66
+419,rejectclaim,1970-04-27 01:53:39,66
+420,checkif claimantis insured,1970-04-27 01:53:40,67
+421,acceptclaim,1970-04-27 01:53:41,67
+422,evaluateSeverityof claim,1970-04-27 01:53:42,67
+423,sendrelevantforms,1970-04-27 01:53:43,67
+424,receiverelevantforms,1970-04-27 01:53:44,67
+425,check forcompleteness,1970-04-27 01:53:45,67
+426,registerclaim,1970-04-27 01:53:46,67
+427,checkif claimantis insured,1970-04-27 01:53:47,68
+428,rejectclaim,1970-04-27 01:53:48,68
+429,checkif claimantis insured,1970-04-27 01:53:49,69
+430,rejectclaim,1970-04-27 01:53:50,69
+431,checkif claimantis insured,1970-04-27 01:53:51,70
+432,rejectclaim,1970-04-27 01:53:52,70
+433,checkif claimantis insured,1970-04-27 01:53:53,71
+434,rejectclaim,1970-04-27 01:53:54,71
+435,checkif claimantis insured,1970-04-27 01:53:55,72
+436,rejectclaim,1970-04-27 01:53:56,72
+437,checkif claimantis insured,1970-04-27 01:53:57,73
+438,rejectclaim,1970-04-27 01:53:58,73
+439,checkif claimantis insured,1970-04-27 01:53:59,74
+440,rejectclaim,1970-04-27 01:54:00,74
+441,checkif claimantis insured,1970-04-27 01:54:01,75
+442,acceptclaim,1970-04-27 01:54:02,75
+443,evaluateSeverityof claim,1970-04-27 01:54:03,75
+444,sendrelevantforms,1970-04-27 01:54:04,75
+445,receiverelevantforms,1970-04-27 01:54:05,75
+446,check forcompleteness,1970-04-27 01:54:06,75
+447,registerclaim,1970-04-27 01:54:07,75
+448,checkif claimantis insured,1970-04-27 01:54:08,76
+449,acceptclaim,1970-04-27 01:54:09,76
+450,evaluateSeverityof claim,1970-04-27 01:54:10,76
+451,sendrelevantforms,1970-04-27 01:54:11,76
+452,receiverelevantforms,1970-04-27 01:54:12,76
+453,check forcompleteness,1970-04-27 01:54:13,76
+454,informclaimant,1970-04-27 01:54:14,76
+455,receiveupdatedforms,1970-04-27 01:54:15,76
+456,check forcompleteness,1970-04-27 01:54:16,76
+457,registerclaim,1970-04-27 01:54:17,76
+458,checkif claimantis insured,1970-04-27 01:54:18,77
+459,rejectclaim,1970-04-27 01:54:19,77
+460,checkif claimantis insured,1970-04-27 01:54:20,78
+461,rejectclaim,1970-04-27 01:54:21,78
+462,checkif claimantis insured,1970-04-27 01:54:22,79
+463,rejectclaim,1970-04-27 01:54:23,79
+464,checkif claimantis insured,1970-04-27 01:54:24,80
+465,acceptclaim,1970-04-27 01:54:25,80
+466,evaluateSeverityof claim,1970-04-27 01:54:26,80
+467,sendrelevantforms,1970-04-27 01:54:27,80
+468,receiverelevantforms,1970-04-27 01:54:28,80
+469,check forcompleteness,1970-04-27 01:54:29,80
+470,registerclaim,1970-04-27 01:54:30,80
+471,checkif claimantis insured,1970-04-27 01:54:31,81
+472,rejectclaim,1970-04-27 01:54:32,81
+473,checkif claimantis insured,1970-04-27 01:54:33,82
+474,acceptclaim,1970-04-27 01:54:34,82
+475,evaluateSeverityof claim,1970-04-27 01:54:35,82
+476,sendrelevantforms,1970-04-27 01:54:36,82
+477,receiverelevantforms,1970-04-27 01:54:37,82
+478,check forcompleteness,1970-04-27 01:54:38,82
+479,informclaimant,1970-04-27 01:54:39,82
+480,receiveupdatedforms,1970-04-27 01:54:40,82
+481,check forcompleteness,1970-04-27 01:54:41,82
+482,registerclaim,1970-04-27 01:54:42,82
+483,checkif claimantis insured,1970-04-27 01:54:43,83
+484,acceptclaim,1970-04-27 01:54:44,83
+485,evaluateSeverityof claim,1970-04-27 01:54:45,83
+486,sendrelevantforms,1970-04-27 01:54:46,83
+487,receiverelevantforms,1970-04-27 01:54:47,83
+488,check forcompleteness,1970-04-27 01:54:48,83
+489,informclaimant,1970-04-27 01:54:49,83
+490,receiveupdatedforms,1970-04-27 01:54:50,83
+491,check forcompleteness,1970-04-27 01:54:51,83
+492,informclaimant,1970-04-27 01:54:52,83
+493,receiveupdatedforms,1970-04-27 01:54:53,83
+494,check forcompleteness,1970-04-27 01:54:54,83
+495,informclaimant,1970-04-27 01:54:55,83
+496,receiveupdatedforms,1970-04-27 01:54:56,83
+497,check forcompleteness,1970-04-27 01:54:57,83
+498,registerclaim,1970-04-27 01:54:58,83
+499,checkif claimantis insured,1970-04-27 01:54:59,84
+500,acceptclaim,1970-04-27 01:55:00,84
+501,evaluateSeverityof claim,1970-04-27 01:55:01,84
+502,sendrelevantforms,1970-04-27 01:55:02,84
+503,receiverelevantforms,1970-04-27 01:55:03,84
+504,check forcompleteness,1970-04-27 01:55:04,84
+505,registerclaim,1970-04-27 01:55:05,84
+506,checkif claimantis insured,1970-04-27 01:55:06,85
+507,rejectclaim,1970-04-27 01:55:07,85
+508,checkif claimantis insured,1970-04-27 01:55:08,86
+509,acceptclaim,1970-04-27 01:55:09,86
+510,evaluateSeverityof claim,1970-04-27 01:55:10,86
+511,sendrelevantforms,1970-04-27 01:55:11,86
+512,receiverelevantforms,1970-04-27 01:55:12,86
+513,check forcompleteness,1970-04-27 01:55:13,86
+514,registerclaim,1970-04-27 01:55:14,86
+515,checkif claimantis insured,1970-04-27 01:55:15,87
+516,acceptclaim,1970-04-27 01:55:16,87
+517,evaluateSeverityof claim,1970-04-27 01:55:17,87
+518,sendrelevantforms,1970-04-27 01:55:18,87
+519,receiverelevantforms,1970-04-27 01:55:19,87
+520,check forcompleteness,1970-04-27 01:55:20,87
+521,informclaimant,1970-04-27 01:55:21,87
+522,receiveupdatedforms,1970-04-27 01:55:22,87
+523,check forcompleteness,1970-04-27 01:55:23,87
+524,informclaimant,1970-04-27 01:55:24,87
+525,receiveupdatedforms,1970-04-27 01:55:25,87
+526,check forcompleteness,1970-04-27 01:55:26,87
+527,informclaimant,1970-04-27 01:55:27,87
+528,receiveupdatedforms,1970-04-27 01:55:28,87
+529,check forcompleteness,1970-04-27 01:55:29,87
+530,informclaimant,1970-04-27 01:55:30,87
+531,receiveupdatedforms,1970-04-27 01:55:31,87
+532,check forcompleteness,1970-04-27 01:55:32,87
+533,informclaimant,1970-04-27 01:55:33,87
+534,receiveupdatedforms,1970-04-27 01:55:34,87
+535,check forcompleteness,1970-04-27 01:55:35,87
+536,informclaimant,1970-04-27 01:55:36,87
+537,receiveupdatedforms,1970-04-27 01:55:37,87
+538,check forcompleteness,1970-04-27 01:55:38,87
+539,registerclaim,1970-04-27 01:55:39,87
+540,checkif claimantis insured,1970-04-27 01:55:40,88
+541,acceptclaim,1970-04-27 01:55:41,88
+542,evaluateSeverityof claim,1970-04-27 01:55:42,88
+543,sendrelevantforms,1970-04-27 01:55:43,88
+544,receiverelevantforms,1970-04-27 01:55:44,88
+545,check forcompleteness,1970-04-27 01:55:45,88
+546,informclaimant,1970-04-27 01:55:46,88
+547,receiveupdatedforms,1970-04-27 01:55:47,88
+548,check forcompleteness,1970-04-27 01:55:48,88
+549,registerclaim,1970-04-27 01:55:49,88
+550,checkif claimantis insured,1970-04-27 01:55:50,89
+551,rejectclaim,1970-04-27 01:55:51,89
+552,checkif claimantis insured,1970-04-27 01:55:52,90
+553,acceptclaim,1970-04-27 01:55:53,90
+554,evaluateSeverityof claim,1970-04-27 01:55:54,90
+555,sendrelevantforms,1970-04-27 01:55:55,90
+556,receiverelevantforms,1970-04-27 01:55:56,90
+557,check forcompleteness,1970-04-27 01:55:57,90
+558,registerclaim,1970-04-27 01:55:58,90
+559,checkif claimantis insured,1970-04-27 01:55:59,91
+560,rejectclaim,1970-04-27 01:56:00,91
+561,checkif claimantis insured,1970-04-27 01:56:01,92
+562,rejectclaim,1970-04-27 01:56:02,92
+563,checkif claimantis insured,1970-04-27 01:56:03,93
+564,rejectclaim,1970-04-27 01:56:04,93
+565,checkif claimantis insured,1970-04-27 01:56:05,94
+566,rejectclaim,1970-04-27 01:56:06,94
+567,checkif claimantis insured,1970-04-27 01:56:07,95
+568,rejectclaim,1970-04-27 01:56:08,95
+569,checkif claimantis insured,1970-04-27 01:56:09,96
+570,acceptclaim,1970-04-27 01:56:10,96
+571,evaluateSeverityof claim,1970-04-27 01:56:11,96
+572,sendrelevantforms,1970-04-27 01:56:12,96
+573,receiverelevantforms,1970-04-27 01:56:13,96
+574,check forcompleteness,1970-04-27 01:56:14,96
+575,informclaimant,1970-04-27 01:56:15,96
+576,receiveupdatedforms,1970-04-27 01:56:16,96
+577,check forcompleteness,1970-04-27 01:56:17,96
+578,registerclaim,1970-04-27 01:56:18,96
+579,checkif claimantis insured,1970-04-27 01:56:19,97
+580,rejectclaim,1970-04-27 01:56:20,97
+581,checkif claimantis insured,1970-04-27 01:56:21,98
+582,rejectclaim,1970-04-27 01:56:22,98
+583,checkif claimantis insured,1970-04-27 01:56:23,99
+584,acceptclaim,1970-04-27 01:56:24,99
+585,evaluateSeverityof claim,1970-04-27 01:56:25,99
+586,sendrelevantforms,1970-04-27 01:56:26,99
+587,receiverelevantforms,1970-04-27 01:56:27,99
+588,check forcompleteness,1970-04-27 01:56:28,99
+589,informclaimant,1970-04-27 01:56:29,99
+590,receiveupdatedforms,1970-04-27 01:56:30,99
+591,check forcompleteness,1970-04-27 01:56:31,99
+592,registerclaim,1970-04-27 01:56:32,99

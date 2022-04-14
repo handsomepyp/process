@@ -1,0 +1,349 @@
+,concept:name,time:timestamp,case:concept:name
+0,checkcompleteness,1970-04-27 01:46:40,0
+1,sendletter aboutoutcome,1970-04-27 01:46:41,0
+2,checkcompleteness,1970-04-27 01:46:42,1
+3,registerclaim,1970-04-27 01:46:43,1
+4,performassessement,1970-04-27 01:46:44,1
+5,contactgarage,1970-04-27 01:46:45,1
+6,schedulepagment,1970-04-27 01:46:46,1
+7,sendletter aboutoutcome,1970-04-27 01:46:47,1
+8,checkcompleteness,1970-04-27 01:46:48,2
+9,sendletter aboutoutcome,1970-04-27 01:46:49,2
+10,checkcompleteness,1970-04-27 01:46:50,3
+11,registerclaim,1970-04-27 01:46:51,3
+12,performassessement,1970-04-27 01:46:52,3
+13,contactgarage,1970-04-27 01:46:53,3
+14,schedulepagment,1970-04-27 01:46:54,3
+15,sendletter aboutoutcome,1970-04-27 01:46:55,3
+16,checkcompleteness,1970-04-27 01:46:56,4
+17,sendletter aboutoutcome,1970-04-27 01:46:57,4
+18,checkcompleteness,1970-04-27 01:46:58,5
+19,registerclaim,1970-04-27 01:46:59,5
+20,performassessement,1970-04-27 01:47:00,5
+21,sendletter aboutoutcome,1970-04-27 01:47:01,5
+22,checkcompleteness,1970-04-27 01:47:02,6
+23,registerclaim,1970-04-27 01:47:03,6
+24,performassessement,1970-04-27 01:47:04,6
+25,contactgarage,1970-04-27 01:47:05,6
+26,schedulepagment,1970-04-27 01:47:06,6
+27,sendletter aboutoutcome,1970-04-27 01:47:07,6
+28,checkcompleteness,1970-04-27 01:47:08,7
+29,sendletter aboutoutcome,1970-04-27 01:47:09,7
+30,checkcompleteness,1970-04-27 01:47:10,8
+31,sendletter aboutoutcome,1970-04-27 01:47:11,8
+32,checkcompleteness,1970-04-27 01:47:12,9
+33,sendletter aboutoutcome,1970-04-27 01:47:13,9
+34,checkcompleteness,1970-04-27 01:47:14,10
+35,registerclaim,1970-04-27 01:47:15,10
+36,performassessement,1970-04-27 01:47:16,10
+37,sendletter aboutoutcome,1970-04-27 01:47:17,10
+38,checkcompleteness,1970-04-27 01:47:18,11
+39,sendletter aboutoutcome,1970-04-27 01:47:19,11
+40,checkcompleteness,1970-04-27 01:47:20,12
+41,registerclaim,1970-04-27 01:47:21,12
+42,performassessement,1970-04-27 01:47:22,12
+43,sendletter aboutoutcome,1970-04-27 01:47:23,12
+44,checkcompleteness,1970-04-27 01:47:24,13
+45,registerclaim,1970-04-27 01:47:25,13
+46,performassessement,1970-04-27 01:47:26,13
+47,contactgarage,1970-04-27 01:47:27,13
+48,schedulepagment,1970-04-27 01:47:28,13
+49,sendletter aboutoutcome,1970-04-27 01:47:29,13
+50,checkcompleteness,1970-04-27 01:47:30,14
+51,registerclaim,1970-04-27 01:47:31,14
+52,performassessement,1970-04-27 01:47:32,14
+53,contactgarage,1970-04-27 01:47:33,14
+54,schedulepagment,1970-04-27 01:47:34,14
+55,sendletter aboutoutcome,1970-04-27 01:47:35,14
+56,checkcompleteness,1970-04-27 01:47:36,15
+57,sendletter aboutoutcome,1970-04-27 01:47:37,15
+58,checkcompleteness,1970-04-27 01:47:38,16
+59,sendletter aboutoutcome,1970-04-27 01:47:39,16
+60,checkcompleteness,1970-04-27 01:47:40,17
+61,registerclaim,1970-04-27 01:47:41,17
+62,performassessement,1970-04-27 01:47:42,17
+63,sendletter aboutoutcome,1970-04-27 01:47:43,17
+64,checkcompleteness,1970-04-27 01:47:44,18
+65,sendletter aboutoutcome,1970-04-27 01:47:45,18
+66,checkcompleteness,1970-04-27 01:47:46,19
+67,sendletter aboutoutcome,1970-04-27 01:47:47,19
+68,checkcompleteness,1970-04-27 01:47:48,20
+69,sendletter aboutoutcome,1970-04-27 01:47:49,20
+70,checkcompleteness,1970-04-27 01:47:50,21
+71,registerclaim,1970-04-27 01:47:51,21
+72,performassessement,1970-04-27 01:47:52,21
+73,sendletter aboutoutcome,1970-04-27 01:47:53,21
+74,checkcompleteness,1970-04-27 01:47:54,22
+75,registerclaim,1970-04-27 01:47:55,22
+76,performassessement,1970-04-27 01:47:56,22
+77,contactgarage,1970-04-27 01:47:57,22
+78,schedulepagment,1970-04-27 01:47:58,22
+79,sendletter aboutoutcome,1970-04-27 01:47:59,22
+80,checkcompleteness,1970-04-27 01:48:00,23
+81,registerclaim,1970-04-27 01:48:01,23
+82,performassessement,1970-04-27 01:48:02,23
+83,sendletter aboutoutcome,1970-04-27 01:48:03,23
+84,checkcompleteness,1970-04-27 01:48:04,24
+85,sendletter aboutoutcome,1970-04-27 01:48:05,24
+86,checkcompleteness,1970-04-27 01:48:06,25
+87,sendletter aboutoutcome,1970-04-27 01:48:07,25
+88,checkcompleteness,1970-04-27 01:48:08,26
+89,registerclaim,1970-04-27 01:48:09,26
+90,performassessement,1970-04-27 01:48:10,26
+91,sendletter aboutoutcome,1970-04-27 01:48:11,26
+92,checkcompleteness,1970-04-27 01:48:12,27
+93,sendletter aboutoutcome,1970-04-27 01:48:13,27
+94,checkcompleteness,1970-04-27 01:48:14,28
+95,sendletter aboutoutcome,1970-04-27 01:48:15,28
+96,checkcompleteness,1970-04-27 01:48:16,29
+97,registerclaim,1970-04-27 01:48:17,29
+98,performassessement,1970-04-27 01:48:18,29
+99,sendletter aboutoutcome,1970-04-27 01:48:19,29
+100,checkcompleteness,1970-04-27 01:48:20,30
+101,registerclaim,1970-04-27 01:48:21,30
+102,performassessement,1970-04-27 01:48:22,30
+103,contactgarage,1970-04-27 01:48:23,30
+104,schedulepagment,1970-04-27 01:48:24,30
+105,sendletter aboutoutcome,1970-04-27 01:48:25,30
+106,checkcompleteness,1970-04-27 01:48:26,31
+107,registerclaim,1970-04-27 01:48:27,31
+108,performassessement,1970-04-27 01:48:28,31
+109,contactgarage,1970-04-27 01:48:29,31
+110,schedulepagment,1970-04-27 01:48:30,31
+111,sendletter aboutoutcome,1970-04-27 01:48:31,31
+112,checkcompleteness,1970-04-27 01:48:32,32
+113,sendletter aboutoutcome,1970-04-27 01:48:33,32
+114,checkcompleteness,1970-04-27 01:48:34,33
+115,sendletter aboutoutcome,1970-04-27 01:48:35,33
+116,checkcompleteness,1970-04-27 01:48:36,34
+117,sendletter aboutoutcome,1970-04-27 01:48:37,34
+118,checkcompleteness,1970-04-27 01:48:38,35
+119,sendletter aboutoutcome,1970-04-27 01:48:39,35
+120,checkcompleteness,1970-04-27 01:48:40,36
+121,sendletter aboutoutcome,1970-04-27 01:48:41,36
+122,checkcompleteness,1970-04-27 01:48:42,37
+123,registerclaim,1970-04-27 01:48:43,37
+124,performassessement,1970-04-27 01:48:44,37
+125,contactgarage,1970-04-27 01:48:45,37
+126,schedulepagment,1970-04-27 01:48:46,37
+127,sendletter aboutoutcome,1970-04-27 01:48:47,37
+128,checkcompleteness,1970-04-27 01:48:48,38
+129,registerclaim,1970-04-27 01:48:49,38
+130,performassessement,1970-04-27 01:48:50,38
+131,contactgarage,1970-04-27 01:48:51,38
+132,schedulepagment,1970-04-27 01:48:52,38
+133,sendletter aboutoutcome,1970-04-27 01:48:53,38
+134,checkcompleteness,1970-04-27 01:48:54,39
+135,sendletter aboutoutcome,1970-04-27 01:48:55,39
+136,checkcompleteness,1970-04-27 01:48:56,40
+137,registerclaim,1970-04-27 01:48:57,40
+138,performassessement,1970-04-27 01:48:58,40
+139,contactgarage,1970-04-27 01:48:59,40
+140,schedulepagment,1970-04-27 01:49:00,40
+141,sendletter aboutoutcome,1970-04-27 01:49:01,40
+142,checkcompleteness,1970-04-27 01:49:02,41
+143,registerclaim,1970-04-27 01:49:03,41
+144,performassessement,1970-04-27 01:49:04,41
+145,sendletter aboutoutcome,1970-04-27 01:49:05,41
+146,checkcompleteness,1970-04-27 01:49:06,42
+147,sendletter aboutoutcome,1970-04-27 01:49:07,42
+148,checkcompleteness,1970-04-27 01:49:08,43
+149,sendletter aboutoutcome,1970-04-27 01:49:09,43
+150,checkcompleteness,1970-04-27 01:49:10,44
+151,registerclaim,1970-04-27 01:49:11,44
+152,performassessement,1970-04-27 01:49:12,44
+153,contactgarage,1970-04-27 01:49:13,44
+154,schedulepagment,1970-04-27 01:49:14,44
+155,sendletter aboutoutcome,1970-04-27 01:49:15,44
+156,checkcompleteness,1970-04-27 01:49:16,45
+157,sendletter aboutoutcome,1970-04-27 01:49:17,45
+158,checkcompleteness,1970-04-27 01:49:18,46
+159,sendletter aboutoutcome,1970-04-27 01:49:19,46
+160,checkcompleteness,1970-04-27 01:49:20,47
+161,registerclaim,1970-04-27 01:49:21,47
+162,performassessement,1970-04-27 01:49:22,47
+163,sendletter aboutoutcome,1970-04-27 01:49:23,47
+164,checkcompleteness,1970-04-27 01:49:24,48
+165,registerclaim,1970-04-27 01:49:25,48
+166,performassessement,1970-04-27 01:49:26,48
+167,contactgarage,1970-04-27 01:49:27,48
+168,schedulepagment,1970-04-27 01:49:28,48
+169,sendletter aboutoutcome,1970-04-27 01:49:29,48
+170,checkcompleteness,1970-04-27 01:49:30,49
+171,sendletter aboutoutcome,1970-04-27 01:49:31,49
+172,checkcompleteness,1970-04-27 01:49:32,50
+173,registerclaim,1970-04-27 01:49:33,50
+174,performassessement,1970-04-27 01:49:34,50
+175,contactgarage,1970-04-27 01:49:35,50
+176,schedulepagment,1970-04-27 01:49:36,50
+177,sendletter aboutoutcome,1970-04-27 01:49:37,50
+178,checkcompleteness,1970-04-27 01:49:38,51
+179,sendletter aboutoutcome,1970-04-27 01:49:39,51
+180,checkcompleteness,1970-04-27 01:49:40,52
+181,sendletter aboutoutcome,1970-04-27 01:49:41,52
+182,checkcompleteness,1970-04-27 01:49:42,53
+183,registerclaim,1970-04-27 01:49:43,53
+184,performassessement,1970-04-27 01:49:44,53
+185,contactgarage,1970-04-27 01:49:45,53
+186,schedulepagment,1970-04-27 01:49:46,53
+187,sendletter aboutoutcome,1970-04-27 01:49:47,53
+188,checkcompleteness,1970-04-27 01:49:48,54
+189,registerclaim,1970-04-27 01:49:49,54
+190,performassessement,1970-04-27 01:49:50,54
+191,contactgarage,1970-04-27 01:49:51,54
+192,schedulepagment,1970-04-27 01:49:52,54
+193,sendletter aboutoutcome,1970-04-27 01:49:53,54
+194,checkcompleteness,1970-04-27 01:49:54,55
+195,sendletter aboutoutcome,1970-04-27 01:49:55,55
+196,checkcompleteness,1970-04-27 01:49:56,56
+197,sendletter aboutoutcome,1970-04-27 01:49:57,56
+198,checkcompleteness,1970-04-27 01:49:58,57
+199,registerclaim,1970-04-27 01:49:59,57
+200,performassessement,1970-04-27 01:50:00,57
+201,contactgarage,1970-04-27 01:50:01,57
+202,schedulepagment,1970-04-27 01:50:02,57
+203,sendletter aboutoutcome,1970-04-27 01:50:03,57
+204,checkcompleteness,1970-04-27 01:50:04,58
+205,sendletter aboutoutcome,1970-04-27 01:50:05,58
+206,checkcompleteness,1970-04-27 01:50:06,59
+207,registerclaim,1970-04-27 01:50:07,59
+208,performassessement,1970-04-27 01:50:08,59
+209,contactgarage,1970-04-27 01:50:09,59
+210,schedulepagment,1970-04-27 01:50:10,59
+211,sendletter aboutoutcome,1970-04-27 01:50:11,59
+212,checkcompleteness,1970-04-27 01:50:12,60
+213,registerclaim,1970-04-27 01:50:13,60
+214,performassessement,1970-04-27 01:50:14,60
+215,contactgarage,1970-04-27 01:50:15,60
+216,schedulepagment,1970-04-27 01:50:16,60
+217,sendletter aboutoutcome,1970-04-27 01:50:17,60
+218,checkcompleteness,1970-04-27 01:50:18,61
+219,sendletter aboutoutcome,1970-04-27 01:50:19,61
+220,checkcompleteness,1970-04-27 01:50:20,62
+221,registerclaim,1970-04-27 01:50:21,62
+222,performassessement,1970-04-27 01:50:22,62
+223,sendletter aboutoutcome,1970-04-27 01:50:23,62
+224,checkcompleteness,1970-04-27 01:50:24,63
+225,sendletter aboutoutcome,1970-04-27 01:50:25,63
+226,checkcompleteness,1970-04-27 01:50:26,64
+227,sendletter aboutoutcome,1970-04-27 01:50:27,64
+228,checkcompleteness,1970-04-27 01:50:28,65
+229,registerclaim,1970-04-27 01:50:29,65
+230,performassessement,1970-04-27 01:50:30,65
+231,contactgarage,1970-04-27 01:50:31,65
+232,schedulepagment,1970-04-27 01:50:32,65
+233,sendletter aboutoutcome,1970-04-27 01:50:33,65
+234,checkcompleteness,1970-04-27 01:50:34,66
+235,sendletter aboutoutcome,1970-04-27 01:50:35,66
+236,checkcompleteness,1970-04-27 01:50:36,67
+237,registerclaim,1970-04-27 01:50:37,67
+238,performassessement,1970-04-27 01:50:38,67
+239,sendletter aboutoutcome,1970-04-27 01:50:39,67
+240,checkcompleteness,1970-04-27 01:50:40,68
+241,sendletter aboutoutcome,1970-04-27 01:50:41,68
+242,checkcompleteness,1970-04-27 01:50:42,69
+243,sendletter aboutoutcome,1970-04-27 01:50:43,69
+244,checkcompleteness,1970-04-27 01:50:44,70
+245,registerclaim,1970-04-27 01:50:45,70
+246,performassessement,1970-04-27 01:50:46,70
+247,contactgarage,1970-04-27 01:50:47,70
+248,schedulepagment,1970-04-27 01:50:48,70
+249,sendletter aboutoutcome,1970-04-27 01:50:49,70
+250,checkcompleteness,1970-04-27 01:50:50,71
+251,sendletter aboutoutcome,1970-04-27 01:50:51,71
+252,checkcompleteness,1970-04-27 01:50:52,72
+253,sendletter aboutoutcome,1970-04-27 01:50:53,72
+254,checkcompleteness,1970-04-27 01:50:54,73
+255,registerclaim,1970-04-27 01:50:55,73
+256,performassessement,1970-04-27 01:50:56,73
+257,sendletter aboutoutcome,1970-04-27 01:50:57,73
+258,checkcompleteness,1970-04-27 01:50:58,74
+259,registerclaim,1970-04-27 01:50:59,74
+260,performassessement,1970-04-27 01:51:00,74
+261,contactgarage,1970-04-27 01:51:01,74
+262,schedulepagment,1970-04-27 01:51:02,74
+263,sendletter aboutoutcome,1970-04-27 01:51:03,74
+264,checkcompleteness,1970-04-27 01:51:04,75
+265,sendletter aboutoutcome,1970-04-27 01:51:05,75
+266,checkcompleteness,1970-04-27 01:51:06,76
+267,sendletter aboutoutcome,1970-04-27 01:51:07,76
+268,checkcompleteness,1970-04-27 01:51:08,77
+269,registerclaim,1970-04-27 01:51:09,77
+270,performassessement,1970-04-27 01:51:10,77
+271,sendletter aboutoutcome,1970-04-27 01:51:11,77
+272,checkcompleteness,1970-04-27 01:51:12,78
+273,registerclaim,1970-04-27 01:51:13,78
+274,performassessement,1970-04-27 01:51:14,78
+275,sendletter aboutoutcome,1970-04-27 01:51:15,78
+276,checkcompleteness,1970-04-27 01:51:16,79
+277,sendletter aboutoutcome,1970-04-27 01:51:17,79
+278,checkcompleteness,1970-04-27 01:51:18,80
+279,sendletter aboutoutcome,1970-04-27 01:51:19,80
+280,checkcompleteness,1970-04-27 01:51:20,81
+281,sendletter aboutoutcome,1970-04-27 01:51:21,81
+282,checkcompleteness,1970-04-27 01:51:22,82
+283,sendletter aboutoutcome,1970-04-27 01:51:23,82
+284,checkcompleteness,1970-04-27 01:51:24,83
+285,registerclaim,1970-04-27 01:51:25,83
+286,performassessement,1970-04-27 01:51:26,83
+287,sendletter aboutoutcome,1970-04-27 01:51:27,83
+288,checkcompleteness,1970-04-27 01:51:28,84
+289,registerclaim,1970-04-27 01:51:29,84
+290,performassessement,1970-04-27 01:51:30,84
+291,sendletter aboutoutcome,1970-04-27 01:51:31,84
+292,checkcompleteness,1970-04-27 01:51:32,85
+293,sendletter aboutoutcome,1970-04-27 01:51:33,85
+294,checkcompleteness,1970-04-27 01:51:34,86
+295,registerclaim,1970-04-27 01:51:35,86
+296,performassessement,1970-04-27 01:51:36,86
+297,sendletter aboutoutcome,1970-04-27 01:51:37,86
+298,checkcompleteness,1970-04-27 01:51:38,87
+299,registerclaim,1970-04-27 01:51:39,87
+300,performassessement,1970-04-27 01:51:40,87
+301,sendletter aboutoutcome,1970-04-27 01:51:41,87
+302,checkcompleteness,1970-04-27 01:51:42,88
+303,sendletter aboutoutcome,1970-04-27 01:51:43,88
+304,checkcompleteness,1970-04-27 01:51:44,89
+305,registerclaim,1970-04-27 01:51:45,89
+306,performassessement,1970-04-27 01:51:46,89
+307,sendletter aboutoutcome,1970-04-27 01:51:47,89
+308,checkcompleteness,1970-04-27 01:51:48,90
+309,registerclaim,1970-04-27 01:51:49,90
+310,performassessement,1970-04-27 01:51:50,90
+311,contactgarage,1970-04-27 01:51:51,90
+312,schedulepagment,1970-04-27 01:51:52,90
+313,sendletter aboutoutcome,1970-04-27 01:51:53,90
+314,checkcompleteness,1970-04-27 01:51:54,91
+315,registerclaim,1970-04-27 01:51:55,91
+316,performassessement,1970-04-27 01:51:56,91
+317,sendletter aboutoutcome,1970-04-27 01:51:57,91
+318,checkcompleteness,1970-04-27 01:51:58,92
+319,sendletter aboutoutcome,1970-04-27 01:51:59,92
+320,checkcompleteness,1970-04-27 01:52:00,93
+321,sendletter aboutoutcome,1970-04-27 01:52:01,93
+322,checkcompleteness,1970-04-27 01:52:02,94
+323,registerclaim,1970-04-27 01:52:03,94
+324,performassessement,1970-04-27 01:52:04,94
+325,contactgarage,1970-04-27 01:52:05,94
+326,schedulepagment,1970-04-27 01:52:06,94
+327,sendletter aboutoutcome,1970-04-27 01:52:07,94
+328,checkcompleteness,1970-04-27 01:52:08,95
+329,sendletter aboutoutcome,1970-04-27 01:52:09,95
+330,checkcompleteness,1970-04-27 01:52:10,96
+331,registerclaim,1970-04-27 01:52:11,96
+332,performassessement,1970-04-27 01:52:12,96
+333,contactgarage,1970-04-27 01:52:13,96
+334,schedulepagment,1970-04-27 01:52:14,96
+335,sendletter aboutoutcome,1970-04-27 01:52:15,96
+336,checkcompleteness,1970-04-27 01:52:16,97
+337,sendletter aboutoutcome,1970-04-27 01:52:17,97
+338,checkcompleteness,1970-04-27 01:52:18,98
+339,registerclaim,1970-04-27 01:52:19,98
+340,performassessement,1970-04-27 01:52:20,98
+341,sendletter aboutoutcome,1970-04-27 01:52:21,98
+342,checkcompleteness,1970-04-27 01:52:22,99
+343,registerclaim,1970-04-27 01:52:23,99
+344,performassessement,1970-04-27 01:52:24,99
+345,contactgarage,1970-04-27 01:52:25,99
+346,schedulepagment,1970-04-27 01:52:26,99
+347,sendletter aboutoutcome,1970-04-27 01:52:27,99

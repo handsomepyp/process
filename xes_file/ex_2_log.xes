@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="0" />
+		<event>
+			<string key="concept:name" value="registerclaim" />
+			<date key="time:timestamp" value="1970-04-27T01:46:40" />
+		</event>
+		<event>
+			<string key="concept:name" value="examineclaim" />
+			<date key="time:timestamp" value="1970-04-27T01:46:41" />
+		</event>
+		<event>
+			<string key="concept:name" value="writesettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:42" />
+		</event>
+		<event>
+			<string key="concept:name" value="checktheSettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:43" />
+		</event>
+		<event>
+			<string key="concept:name" value="writesettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:44" />
+		</event>
+		<event>
+			<string key="concept:name" value="checktheSettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:45" />
+		</event>
+		<event>
+			<string key="concept:name" value="writesettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:46" />
+		</event>
+		<event>
+			<string key="concept:name" value="checktheSettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:47" />
+		</event>
+		<event>
+			<string key="concept:name" value="writesettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:48" />
+		</event>
+		<event>
+			<string key="concept:name" value="checktheSettlementrecommendation" />
+			<date key="time:timestamp" value="1970-04-27T01:46:49" />
+		</event>
+		<event>
+			<string key="concept:name" value="proceedhandlingprocess" />
+			<date key="time:timestamp" value="1970-04-27T01:46:50" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,423 @@
+,concept:name,time:timestamp,case:concept:name
+0,collectcd,1970-04-27 01:46:40,0
+1,enterinformationin CBS,1970-04-27 01:46:41,0
+2,sendlist 1,1970-04-27 01:46:42,0
+3,receivelist 2,1970-04-27 01:46:43,0
+4,assignstudents,1970-04-27 01:46:44,0
+5,reebookstudents in CBS,1970-04-27 01:46:45,0
+6,chooseelectivecourse,1970-04-27 01:46:46,1
+7,look at coursein CBS,1970-04-27 01:46:47,1
+8,writecoursedescription,1970-04-27 01:46:48,2
+9,sendcoursedescription (cd),1970-04-27 01:46:49,2
+10,receivelist 1,1970-04-27 01:46:50,2
+11,Createempty list2,1970-04-27 01:46:51,2
+12,sendlist 2,1970-04-27 01:46:52,2
+13,collectcd,1970-04-27 01:46:53,3
+14,enterinformationin CBS,1970-04-27 01:46:54,3
+15,sendlist 1,1970-04-27 01:46:55,3
+16,receivelist 2,1970-04-27 01:46:56,3
+17,assignstudents,1970-04-27 01:46:57,3
+18,reebookstudents in CBS,1970-04-27 01:46:58,3
+19,collectcd,1970-04-27 01:46:59,4
+20,enterinformationin CBS,1970-04-27 01:47:00,4
+21,sendlist 1,1970-04-27 01:47:01,4
+22,receivelist 2,1970-04-27 01:47:02,4
+23,assignstudents,1970-04-27 01:47:03,4
+24,reebookstudents in CBS,1970-04-27 01:47:04,4
+25,writecoursedescription,1970-04-27 01:47:05,5
+26,sendcoursedescription (cd),1970-04-27 01:47:06,5
+27,receivelist 1,1970-04-27 01:47:07,5
+28,Createempty list2,1970-04-27 01:47:08,5
+29,sendlist 2,1970-04-27 01:47:09,5
+30,writecoursedescription,1970-04-27 01:47:10,6
+31,sendcoursedescription (cd),1970-04-27 01:47:11,6
+32,receivelist 1,1970-04-27 01:47:12,6
+33,Createempty list2,1970-04-27 01:47:13,6
+34,sendlist 2,1970-04-27 01:47:14,6
+35,chooseelectivecourse,1970-04-27 01:47:15,7
+36,look at coursein CBS,1970-04-27 01:47:16,7
+37,writecoursedescription,1970-04-27 01:47:17,8
+38,sendcoursedescription (cd),1970-04-27 01:47:18,8
+39,receivelist 1,1970-04-27 01:47:19,8
+40,sendlist 2,1970-04-27 01:47:20,8
+41,chooseelectivecourse,1970-04-27 01:47:21,9
+42,look at coursein CBS,1970-04-27 01:47:22,9
+43,chooseelectivecourse,1970-04-27 01:47:23,10
+44,look at coursein CBS,1970-04-27 01:47:24,10
+45,collectcd,1970-04-27 01:47:25,11
+46,enterinformationin CBS,1970-04-27 01:47:26,11
+47,sendlist 1,1970-04-27 01:47:27,11
+48,receivelist 2,1970-04-27 01:47:28,11
+49,assignstudents,1970-04-27 01:47:29,11
+50,reebookstudents in CBS,1970-04-27 01:47:30,11
+51,chooseelectivecourse,1970-04-27 01:47:31,12
+52,look at coursein CBS,1970-04-27 01:47:32,12
+53,collectcd,1970-04-27 01:47:33,13
+54,enterinformationin CBS,1970-04-27 01:47:34,13
+55,sendlist 1,1970-04-27 01:47:35,13
+56,receivelist 2,1970-04-27 01:47:36,13
+57,assignstudents,1970-04-27 01:47:37,13
+58,reebookstudents in CBS,1970-04-27 01:47:38,13
+59,chooseelectivecourse,1970-04-27 01:47:39,14
+60,look at coursein CBS,1970-04-27 01:47:40,14
+61,writecoursedescription,1970-04-27 01:47:41,15
+62,sendcoursedescription (cd),1970-04-27 01:47:42,15
+63,receivelist 1,1970-04-27 01:47:43,15
+64,Createempty list2,1970-04-27 01:47:44,15
+65,sendlist 2,1970-04-27 01:47:45,15
+66,collectcd,1970-04-27 01:47:46,16
+67,enterinformationin CBS,1970-04-27 01:47:47,16
+68,sendlist 1,1970-04-27 01:47:48,16
+69,receivelist 2,1970-04-27 01:47:49,16
+70,assignstudents,1970-04-27 01:47:50,16
+71,reebookstudents in CBS,1970-04-27 01:47:51,16
+72,collectcd,1970-04-27 01:47:52,17
+73,enterinformationin CBS,1970-04-27 01:47:53,17
+74,sendlist 1,1970-04-27 01:47:54,17
+75,receivelist 2,1970-04-27 01:47:55,17
+76,assignstudents,1970-04-27 01:47:56,17
+77,reebookstudents in CBS,1970-04-27 01:47:57,17
+78,collectcd,1970-04-27 01:47:58,18
+79,enterinformationin CBS,1970-04-27 01:47:59,18
+80,sendlist 1,1970-04-27 01:48:00,18
+81,receivelist 2,1970-04-27 01:48:01,18
+82,assignstudents,1970-04-27 01:48:02,18
+83,reebookstudents in CBS,1970-04-27 01:48:03,18
+84,chooseelectivecourse,1970-04-27 01:48:04,19
+85,look at coursein CBS,1970-04-27 01:48:05,19
+86,writecoursedescription,1970-04-27 01:48:06,20
+87,sendcoursedescription (cd),1970-04-27 01:48:07,20
+88,receivelist 1,1970-04-27 01:48:08,20
+89,Createempty list2,1970-04-27 01:48:09,20
+90,sendlist 2,1970-04-27 01:48:10,20
+91,chooseelectivecourse,1970-04-27 01:48:11,21
+92,look at coursein CBS,1970-04-27 01:48:12,21
+93,collectcd,1970-04-27 01:48:13,22
+94,enterinformationin CBS,1970-04-27 01:48:14,22
+95,sendlist 1,1970-04-27 01:48:15,22
+96,receivelist 2,1970-04-27 01:48:16,22
+97,assignstudents,1970-04-27 01:48:17,22
+98,reebookstudents in CBS,1970-04-27 01:48:18,22
+99,collectcd,1970-04-27 01:48:19,23
+100,enterinformationin CBS,1970-04-27 01:48:20,23
+101,sendlist 1,1970-04-27 01:48:21,23
+102,receivelist 2,1970-04-27 01:48:22,23
+103,assignstudents,1970-04-27 01:48:23,23
+104,reebookstudents in CBS,1970-04-27 01:48:24,23
+105,collectcd,1970-04-27 01:48:25,24
+106,enterinformationin CBS,1970-04-27 01:48:26,24
+107,sendlist 1,1970-04-27 01:48:27,24
+108,receivelist 2,1970-04-27 01:48:28,24
+109,assignstudents,1970-04-27 01:48:29,24
+110,reebookstudents in CBS,1970-04-27 01:48:30,24
+111,chooseelectivecourse,1970-04-27 01:48:31,25
+112,look at coursein CBS,1970-04-27 01:48:32,25
+113,collectcd,1970-04-27 01:48:33,26
+114,enterinformationin CBS,1970-04-27 01:48:34,26
+115,sendlist 1,1970-04-27 01:48:35,26
+116,receivelist 2,1970-04-27 01:48:36,26
+117,assignstudents,1970-04-27 01:48:37,26
+118,reebookstudents in CBS,1970-04-27 01:48:38,26
+119,collectcd,1970-04-27 01:48:39,27
+120,enterinformationin CBS,1970-04-27 01:48:40,27
+121,sendlist 1,1970-04-27 01:48:41,27
+122,receivelist 2,1970-04-27 01:48:42,27
+123,assignstudents,1970-04-27 01:48:43,27
+124,reebookstudents in CBS,1970-04-27 01:48:44,27
+125,writecoursedescription,1970-04-27 01:48:45,28
+126,sendcoursedescription (cd),1970-04-27 01:48:46,28
+127,receivelist 1,1970-04-27 01:48:47,28
+128,sendlist 2,1970-04-27 01:48:48,28
+129,chooseelectivecourse,1970-04-27 01:48:49,29
+130,look at coursein CBS,1970-04-27 01:48:50,29
+131,writecoursedescription,1970-04-27 01:48:51,30
+132,sendcoursedescription (cd),1970-04-27 01:48:52,30
+133,receivelist 1,1970-04-27 01:48:53,30
+134,Createempty list2,1970-04-27 01:48:54,30
+135,sendlist 2,1970-04-27 01:48:55,30
+136,chooseelectivecourse,1970-04-27 01:48:56,31
+137,look at coursein CBS,1970-04-27 01:48:57,31
+138,collectcd,1970-04-27 01:48:58,32
+139,enterinformationin CBS,1970-04-27 01:48:59,32
+140,sendlist 1,1970-04-27 01:49:00,32
+141,receivelist 2,1970-04-27 01:49:01,32
+142,assignstudents,1970-04-27 01:49:02,32
+143,reebookstudents in CBS,1970-04-27 01:49:03,32
+144,writecoursedescription,1970-04-27 01:49:04,33
+145,sendcoursedescription (cd),1970-04-27 01:49:05,33
+146,receivelist 1,1970-04-27 01:49:06,33
+147,Createempty list2,1970-04-27 01:49:07,33
+148,sendlist 2,1970-04-27 01:49:08,33
+149,chooseelectivecourse,1970-04-27 01:49:09,34
+150,look at coursein CBS,1970-04-27 01:49:10,34
+151,writecoursedescription,1970-04-27 01:49:11,35
+152,sendcoursedescription (cd),1970-04-27 01:49:12,35
+153,receivelist 1,1970-04-27 01:49:13,35
+154,Createempty list2,1970-04-27 01:49:14,35
+155,sendlist 2,1970-04-27 01:49:15,35
+156,writecoursedescription,1970-04-27 01:49:16,36
+157,sendcoursedescription (cd),1970-04-27 01:49:17,36
+158,receivelist 1,1970-04-27 01:49:18,36
+159,sendlist 2,1970-04-27 01:49:19,36
+160,collectcd,1970-04-27 01:49:20,37
+161,enterinformationin CBS,1970-04-27 01:49:21,37
+162,sendlist 1,1970-04-27 01:49:22,37
+163,receivelist 2,1970-04-27 01:49:23,37
+164,assignstudents,1970-04-27 01:49:24,37
+165,reebookstudents in CBS,1970-04-27 01:49:25,37
+166,writecoursedescription,1970-04-27 01:49:26,38
+167,sendcoursedescription (cd),1970-04-27 01:49:27,38
+168,receivelist 1,1970-04-27 01:49:28,38
+169,Createempty list2,1970-04-27 01:49:29,38
+170,sendlist 2,1970-04-27 01:49:30,38
+171,collectcd,1970-04-27 01:49:31,39
+172,enterinformationin CBS,1970-04-27 01:49:32,39
+173,sendlist 1,1970-04-27 01:49:33,39
+174,receivelist 2,1970-04-27 01:49:34,39
+175,assignstudents,1970-04-27 01:49:35,39
+176,reebookstudents in CBS,1970-04-27 01:49:36,39
+177,writecoursedescription,1970-04-27 01:49:37,40
+178,sendcoursedescription (cd),1970-04-27 01:49:38,40
+179,receivelist 1,1970-04-27 01:49:39,40
+180,Createempty list2,1970-04-27 01:49:40,40
+181,sendlist 2,1970-04-27 01:49:41,40
+182,writecoursedescription,1970-04-27 01:49:42,41
+183,sendcoursedescription (cd),1970-04-27 01:49:43,41
+184,receivelist 1,1970-04-27 01:49:44,41
+185,Createempty list2,1970-04-27 01:49:45,41
+186,sendlist 2,1970-04-27 01:49:46,41
+187,writecoursedescription,1970-04-27 01:49:47,42
+188,sendcoursedescription (cd),1970-04-27 01:49:48,42
+189,receivelist 1,1970-04-27 01:49:49,42
+190,Createempty list2,1970-04-27 01:49:50,42
+191,sendlist 2,1970-04-27 01:49:51,42
+192,collectcd,1970-04-27 01:49:52,43
+193,enterinformationin CBS,1970-04-27 01:49:53,43
+194,sendlist 1,1970-04-27 01:49:54,43
+195,receivelist 2,1970-04-27 01:49:55,43
+196,assignstudents,1970-04-27 01:49:56,43
+197,reebookstudents in CBS,1970-04-27 01:49:57,43
+198,chooseelectivecourse,1970-04-27 01:49:58,44
+199,look at coursein CBS,1970-04-27 01:49:59,44
+200,collectcd,1970-04-27 01:50:00,45
+201,enterinformationin CBS,1970-04-27 01:50:01,45
+202,sendlist 1,1970-04-27 01:50:02,45
+203,receivelist 2,1970-04-27 01:50:03,45
+204,assignstudents,1970-04-27 01:50:04,45
+205,reebookstudents in CBS,1970-04-27 01:50:05,45
+206,chooseelectivecourse,1970-04-27 01:50:06,46
+207,look at coursein CBS,1970-04-27 01:50:07,46
+208,writecoursedescription,1970-04-27 01:50:08,47
+209,sendcoursedescription (cd),1970-04-27 01:50:09,47
+210,receivelist 1,1970-04-27 01:50:10,47
+211,Createempty list2,1970-04-27 01:50:11,47
+212,sendlist 2,1970-04-27 01:50:12,47
+213,chooseelectivecourse,1970-04-27 01:50:13,48
+214,look at coursein CBS,1970-04-27 01:50:14,48
+215,writecoursedescription,1970-04-27 01:50:15,49
+216,sendcoursedescription (cd),1970-04-27 01:50:16,49
+217,receivelist 1,1970-04-27 01:50:17,49
+218,sendlist 2,1970-04-27 01:50:18,49
+219,writecoursedescription,1970-04-27 01:50:19,50
+220,sendcoursedescription (cd),1970-04-27 01:50:20,50
+221,receivelist 1,1970-04-27 01:50:21,50
+222,sendlist 2,1970-04-27 01:50:22,50
+223,chooseelectivecourse,1970-04-27 01:50:23,51
+224,look at coursein CBS,1970-04-27 01:50:24,51
+225,writecoursedescription,1970-04-27 01:50:25,52
+226,sendcoursedescription (cd),1970-04-27 01:50:26,52
+227,receivelist 1,1970-04-27 01:50:27,52
+228,Createempty list2,1970-04-27 01:50:28,52
+229,sendlist 2,1970-04-27 01:50:29,52
+230,writecoursedescription,1970-04-27 01:50:30,53
+231,sendcoursedescription (cd),1970-04-27 01:50:31,53
+232,receivelist 1,1970-04-27 01:50:32,53
+233,Createempty list2,1970-04-27 01:50:33,53
+234,sendlist 2,1970-04-27 01:50:34,53
+235,collectcd,1970-04-27 01:50:35,54
+236,enterinformationin CBS,1970-04-27 01:50:36,54
+237,sendlist 1,1970-04-27 01:50:37,54
+238,receivelist 2,1970-04-27 01:50:38,54
+239,assignstudents,1970-04-27 01:50:39,54
+240,reebookstudents in CBS,1970-04-27 01:50:40,54
+241,chooseelectivecourse,1970-04-27 01:50:41,55
+242,look at coursein CBS,1970-04-27 01:50:42,55
+243,collectcd,1970-04-27 01:50:43,56
+244,enterinformationin CBS,1970-04-27 01:50:44,56
+245,sendlist 1,1970-04-27 01:50:45,56
+246,receivelist 2,1970-04-27 01:50:46,56
+247,assignstudents,1970-04-27 01:50:47,56
+248,reebookstudents in CBS,1970-04-27 01:50:48,56
+249,collectcd,1970-04-27 01:50:49,57
+250,enterinformationin CBS,1970-04-27 01:50:50,57
+251,sendlist 1,1970-04-27 01:50:51,57
+252,receivelist 2,1970-04-27 01:50:52,57
+253,assignstudents,1970-04-27 01:50:53,57
+254,reebookstudents in CBS,1970-04-27 01:50:54,57
+255,chooseelectivecourse,1970-04-27 01:50:55,58
+256,look at coursein CBS,1970-04-27 01:50:56,58
+257,collectcd,1970-04-27 01:50:57,59
+258,enterinformationin CBS,1970-04-27 01:50:58,59
+259,sendlist 1,1970-04-27 01:50:59,59
+260,receivelist 2,1970-04-27 01:51:00,59
+261,assignstudents,1970-04-27 01:51:01,59
+262,reebookstudents in CBS,1970-04-27 01:51:02,59
+263,chooseelectivecourse,1970-04-27 01:51:03,60
+264,look at coursein CBS,1970-04-27 01:51:04,60
+265,chooseelectivecourse,1970-04-27 01:51:05,61
+266,look at coursein CBS,1970-04-27 01:51:06,61
+267,chooseelectivecourse,1970-04-27 01:51:07,62
+268,look at coursein CBS,1970-04-27 01:51:08,62
+269,writecoursedescription,1970-04-27 01:51:09,63
+270,sendcoursedescription (cd),1970-04-27 01:51:10,63
+271,receivelist 1,1970-04-27 01:51:11,63
+272,sendlist 2,1970-04-27 01:51:12,63
+273,chooseelectivecourse,1970-04-27 01:51:13,64
+274,look at coursein CBS,1970-04-27 01:51:14,64
+275,writecoursedescription,1970-04-27 01:51:15,65
+276,sendcoursedescription (cd),1970-04-27 01:51:16,65
+277,receivelist 1,1970-04-27 01:51:17,65
+278,sendlist 2,1970-04-27 01:51:18,65
+279,writecoursedescription,1970-04-27 01:51:19,66
+280,sendcoursedescription (cd),1970-04-27 01:51:20,66
+281,receivelist 1,1970-04-27 01:51:21,66
+282,sendlist 2,1970-04-27 01:51:22,66
+283,collectcd,1970-04-27 01:51:23,67
+284,enterinformationin CBS,1970-04-27 01:51:24,67
+285,sendlist 1,1970-04-27 01:51:25,67
+286,receivelist 2,1970-04-27 01:51:26,67
+287,assignstudents,1970-04-27 01:51:27,67
+288,reebookstudents in CBS,1970-04-27 01:51:28,67
+289,chooseelectivecourse,1970-04-27 01:51:29,68
+290,look at coursein CBS,1970-04-27 01:51:30,68
+291,writecoursedescription,1970-04-27 01:51:31,69
+292,sendcoursedescription (cd),1970-04-27 01:51:32,69
+293,receivelist 1,1970-04-27 01:51:33,69
+294,Createempty list2,1970-04-27 01:51:34,69
+295,sendlist 2,1970-04-27 01:51:35,69
+296,chooseelectivecourse,1970-04-27 01:51:36,70
+297,look at coursein CBS,1970-04-27 01:51:37,70
+298,collectcd,1970-04-27 01:51:38,71
+299,enterinformationin CBS,1970-04-27 01:51:39,71
+300,sendlist 1,1970-04-27 01:51:40,71
+301,receivelist 2,1970-04-27 01:51:41,71
+302,assignstudents,1970-04-27 01:51:42,71
+303,reebookstudents in CBS,1970-04-27 01:51:43,71
+304,chooseelectivecourse,1970-04-27 01:51:44,72
+305,look at coursein CBS,1970-04-27 01:51:45,72
+306,writecoursedescription,1970-04-27 01:51:46,73
+307,sendcoursedescription (cd),1970-04-27 01:51:47,73
+308,receivelist 1,1970-04-27 01:51:48,73
+309,Createempty list2,1970-04-27 01:51:49,73
+310,sendlist 2,1970-04-27 01:51:50,73
+311,writecoursedescription,1970-04-27 01:51:51,74
+312,sendcoursedescription (cd),1970-04-27 01:51:52,74
+313,receivelist 1,1970-04-27 01:51:53,74
+314,sendlist 2,1970-04-27 01:51:54,74
+315,chooseelectivecourse,1970-04-27 01:51:55,75
+316,look at coursein CBS,1970-04-27 01:51:56,75
+317,chooseelectivecourse,1970-04-27 01:51:57,76
+318,look at coursein CBS,1970-04-27 01:51:58,76
+319,chooseelectivecourse,1970-04-27 01:51:59,77
+320,look at coursein CBS,1970-04-27 01:52:00,77
+321,collectcd,1970-04-27 01:52:01,78
+322,enterinformationin CBS,1970-04-27 01:52:02,78
+323,sendlist 1,1970-04-27 01:52:03,78
+324,receivelist 2,1970-04-27 01:52:04,78
+325,assignstudents,1970-04-27 01:52:05,78
+326,reebookstudents in CBS,1970-04-27 01:52:06,78
+327,writecoursedescription,1970-04-27 01:52:07,79
+328,sendcoursedescription (cd),1970-04-27 01:52:08,79
+329,receivelist 1,1970-04-27 01:52:09,79
+330,sendlist 2,1970-04-27 01:52:10,79
+331,chooseelectivecourse,1970-04-27 01:52:11,80
+332,look at coursein CBS,1970-04-27 01:52:12,80
+333,writecoursedescription,1970-04-27 01:52:13,81
+334,sendcoursedescription (cd),1970-04-27 01:52:14,81
+335,receivelist 1,1970-04-27 01:52:15,81
+336,Createempty list2,1970-04-27 01:52:16,81
+337,sendlist 2,1970-04-27 01:52:17,81
+338,writecoursedescription,1970-04-27 01:52:18,82
+339,sendcoursedescription (cd),1970-04-27 01:52:19,82
+340,receivelist 1,1970-04-27 01:52:20,82
+341,sendlist 2,1970-04-27 01:52:21,82
+342,writecoursedescription,1970-04-27 01:52:22,83
+343,sendcoursedescription (cd),1970-04-27 01:52:23,83
+344,receivelist 1,1970-04-27 01:52:24,83
+345,Createempty list2,1970-04-27 01:52:25,83
+346,sendlist 2,1970-04-27 01:52:26,83
+347,chooseelectivecourse,1970-04-27 01:52:27,84
+348,look at coursein CBS,1970-04-27 01:52:28,84
+349,collectcd,1970-04-27 01:52:29,85
+350,enterinformationin CBS,1970-04-27 01:52:30,85
+351,sendlist 1,1970-04-27 01:52:31,85
+352,receivelist 2,1970-04-27 01:52:32,85
+353,assignstudents,1970-04-27 01:52:33,85
+354,reebookstudents in CBS,1970-04-27 01:52:34,85
+355,chooseelectivecourse,1970-04-27 01:52:35,86
+356,look at coursein CBS,1970-04-27 01:52:36,86
+357,chooseelectivecourse,1970-04-27 01:52:37,87
+358,look at coursein CBS,1970-04-27 01:52:38,87
+359,collectcd,1970-04-27 01:52:39,88
+360,enterinformationin CBS,1970-04-27 01:52:40,88
+361,sendlist 1,1970-04-27 01:52:41,88
+362,receivelist 2,1970-04-27 01:52:42,88
+363,assignstudents,1970-04-27 01:52:43,88
+364,reebookstudents in CBS,1970-04-27 01:52:44,88
+365,collectcd,1970-04-27 01:52:45,89
+366,enterinformationin CBS,1970-04-27 01:52:46,89
+367,sendlist 1,1970-04-27 01:52:47,89
+368,receivelist 2,1970-04-27 01:52:48,89
+369,assignstudents,1970-04-27 01:52:49,89
+370,reebookstudents in CBS,1970-04-27 01:52:50,89
+371,collectcd,1970-04-27 01:52:51,90
+372,enterinformationin CBS,1970-04-27 01:52:52,90
+373,sendlist 1,1970-04-27 01:52:53,90
+374,receivelist 2,1970-04-27 01:52:54,90
+375,assignstudents,1970-04-27 01:52:55,90
+376,reebookstudents in CBS,1970-04-27 01:52:56,90
+377,chooseelectivecourse,1970-04-27 01:52:57,91
+378,look at coursein CBS,1970-04-27 01:52:58,91
+379,collectcd,1970-04-27 01:52:59,92
+380,enterinformationin CBS,1970-04-27 01:53:00,92
+381,sendlist 1,1970-04-27 01:53:01,92
+382,receivelist 2,1970-04-27 01:53:02,92
+383,assignstudents,1970-04-27 01:53:03,92
+384,reebookstudents in CBS,1970-04-27 01:53:04,92
+385,collectcd,1970-04-27 01:53:05,93
+386,enterinformationin CBS,1970-04-27 01:53:06,93
+387,sendlist 1,1970-04-27 01:53:07,93
+388,receivelist 2,1970-04-27 01:53:08,93
+389,assignstudents,1970-04-27 01:53:09,93
+390,reebookstudents in CBS,1970-04-27 01:53:10,93
+391,collectcd,1970-04-27 01:53:11,94
+392,enterinformationin CBS,1970-04-27 01:53:12,94
+393,sendlist 1,1970-04-27 01:53:13,94
+394,receivelist 2,1970-04-27 01:53:14,94
+395,assignstudents,1970-04-27 01:53:15,94
+396,reebookstudents in CBS,1970-04-27 01:53:16,94
+397,writecoursedescription,1970-04-27 01:53:17,95
+398,sendcoursedescription (cd),1970-04-27 01:53:18,95
+399,receivelist 1,1970-04-27 01:53:19,95
+400,Createempty list2,1970-04-27 01:53:20,95
+401,sendlist 2,1970-04-27 01:53:21,95
+402,collectcd,1970-04-27 01:53:22,96
+403,enterinformationin CBS,1970-04-27 01:53:23,96
+404,sendlist 1,1970-04-27 01:53:24,96
+405,receivelist 2,1970-04-27 01:53:25,96
+406,assignstudents,1970-04-27 01:53:26,96
+407,reebookstudents in CBS,1970-04-27 01:53:27,96
+408,chooseelectivecourse,1970-04-27 01:53:28,97
+409,look at coursein CBS,1970-04-27 01:53:29,97
+410,collectcd,1970-04-27 01:53:30,98
+411,enterinformationin CBS,1970-04-27 01:53:31,98
+412,sendlist 1,1970-04-27 01:53:32,98
+413,receivelist 2,1970-04-27 01:53:33,98
+414,assignstudents,1970-04-27 01:53:34,98
+415,reebookstudents in CBS,1970-04-27 01:53:35,98
+416,collectcd,1970-04-27 01:53:36,99
+417,enterinformationin CBS,1970-04-27 01:53:37,99
+418,sendlist 1,1970-04-27 01:53:38,99
+419,receivelist 2,1970-04-27 01:53:39,99
+420,assignstudents,1970-04-27 01:53:40,99
+421,reebookstudents in CBS,1970-04-27 01:53:41,99
