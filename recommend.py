@@ -1,4 +1,5 @@
 import os
+import hashlib
 
 
 def recommendNode(node): # 待推荐流程片段仅为一个节点
@@ -27,9 +28,23 @@ def recommendGraph(graph):
     待推荐流程片段为一个子图
     :return:
     """
-    cur_graph_hash = hash_graph(graph)
-
-    print("hello world")
+    print(graph)
+    cur_graph_hash = str(hash_graph(graph))
+    print(cur_graph_hash)
+    h = {}
+    with open('finally_result', 'r') as f:
+        line1 = f.readline()
+        line2 = f.readline()
+        line3 = f.readline()
+        while line1:
+            if line1 == cur_graph_hash + '\n':
+                h[line2] = line3
+            line1 = f.readline()
+            line2 = f.readline()
+            line3 = f.readline()
+    for k, v in h.items():
+        print(k, v, end='')
+    # print("hello world")
 
 
 if __name__ == '__main__':
@@ -37,10 +52,10 @@ if __name__ == '__main__':
     contents = file.readlines()
     flag = contents[0]
     if flag == "node\n":
-        recommendNode(contents[1])
+        recommendGraph(contents[1])
     else:
         graph = []
         for content in contents:
             graph.append(list(content.split()))
-        print(graph)
+        # print(graph)
         recommendGraph(graph)

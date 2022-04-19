@@ -1,5 +1,6 @@
 import os
 from collections import Counter
+import hashlib
 
 
 class Pattern:
@@ -97,9 +98,9 @@ def decomposition(lines):
                 for edge in edges:
                     if edge[0] not in candidate_node_sets_number and number_to_label[edge[0]] not in upstream_subpath:
                         upstream_subpath.append(number_to_label[edge[0]])
-            print(upstream_subpath, '->', end='')
-            print(candidate_node_sets, '->', end='')
-            print('support =', support)
+            #print(upstream_subpath, '->', end='')
+            #print(candidate_node_sets, '->', end='')
+            #print('support =', support)
             all_upstream_subpath.append(upstream_subpath)
             all_candidate_node_sets.append(candidate_node_sets)
             Pattern_add(upstream_subpath, candidate_node_sets, support)
@@ -122,17 +123,39 @@ def Pattern_add(upstream_subpath, candidate_node_sets, support):
     # 改进pl, pt
 
 
+def hash_graph(graph):
+    """
+    返回图的哈希值
+    :param graph:
+    :return: 图的哈希值
+    """
+    res = 0
+    for edge in graph:
+        res += hash(tuple(edge))
+    return res
+
+
 if __name__ == '__main__':
-    file = open('./sub_graph/simple_data')
+    file = open('./sub_graph/sub_graph_data')
     lines = file.readlines()
     file.close()
     decomposition(lines)
     elements = pl.list
     dic = pt.Table
     l = pt.Tables
-    for table in l:
-        print(table.element, dic[table.val])
+    #for table in l:
+     #   print(table.element, dic[table.val])
+    file = open('finally_result', mode="a")
     for element in elements:
         us = UpstreamSubgraph(element.Upstream_Subgraph)
         print(element.Upstream_Subgraph, '->', element.Candidate_Node_Sets, '->',
-              int(element.support) / dic[us.val])
+              'confidence', int(element.support) / dic[us.val])
+        # hash + Candidate_Node_Sets + confidence
+        # print(hash_graph(element.Upstream_Subgraph))
+        file.write(str(hash_graph(element.Upstream_Subgraph)) + '\n')
+        print(hash_graph(element.Upstream_Subgraph))
+        for ver in element.Candidate_Node_Sets:
+            file.write(str(ver) + ' ')
+        file.write('\n')
+        file.write('confidence: ' + str(int(element.support) / dic[us.val]))
+        file.write('\n')

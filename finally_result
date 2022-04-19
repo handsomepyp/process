@@ -1,484 +1,1110 @@
-t # 0
-v 0 evaluatetheApplication
-v 1 createanewbankaccount
-v 2 sendawelomepackinaletter
-v 3 sendaPINnumberinaletter
-v 4 sendabankcardinaletter
-v 5 notifythecustomerbyemail
-e 0 1 0
-e 1 2 1
-e 2 3 2
-e 3 4 3
-e 2 4 4
-e 4 3 5
-e 1 4 6
-e 3 2 7
-e 0 5 8
-e 1 3 9
-e 4 2 10
-t # 1
-v 6 assessrisk
-v 7 carryoutanadvancedriskassessment
-v 8 organizedisbursement
-v 9 notifycostumerwiththeresultoftheassessment
-v 10 carryoutasimpleriskassessment
-e 6 7 11
-e 7 8 12
-e 8 9 13
-e 6 10 14
-e 10 9 15
-e 9 8 16
-e 10 8 17
-e 7 9 18
-t # 2
-v 11 registerclaim
-v 12 examineclaim
-v 13 writesettlementrecommendation
-v 14 checktheSettlementrecommendation
-v 15 proceedhandlingprocess
-e 11 12 19
-e 12 13 20
-e 13 14 21
-e 14 15 22
-e 14 13 23
-t # 3
-v 16 checkifclaimantisinsured
-v 17 acceptclaim
-v 18 evaluateSeverityofclaim
-v 19 sendrelevantforms
-v 20 receiverelevantforms
-v 21 checkforcompleteness
-v 22 registerclaim
-v 23 rejectclaim
-v 24 informclaimant
-v 25 receiveupdatedforms
-e 16 17 24
-e 17 18 25
-e 18 19 26
-e 19 20 27
-e 20 21 28
-e 21 22 29
-e 16 23 30
-e 21 24 31
-e 24 25 32
-e 25 21 33
-t # 4
-v 26 checkcompleteness
-v 27 registerclaim
-v 28 performassessement
-v 29 sendletteraboutoutcome
-v 30 contactgarage
-v 31 schedulepagment
-e 26 27 34
-e 27 28 35
-e 28 29 36
-e 26 29 37
-e 28 30 38
-e 30 31 39
-e 31 29 40
-t # 5
-v 32 CheckDocumenta-tion
-v 33 Registerdocumentat-ion
-v 34 checkinsurance
-v 35 Performassessment
-v 36 schedulepayment
-e 32 33 41
-e 33 34 42
-e 34 35 43
-e 35 36 44
-t # 6
-v 37 printorder
-v 38 attachordernotetopinboard
-v 39 writedownorder
-v 40 confimorder
-e 37 38 45
-e 39 38 46
-e 40 37 47
-t # 7
-v 41 writecoursedescription
-v 42 sendcoursedescription(cd)
-v 43 receivelist1
-v 44 Createemptylist2
-v 45 sendlist2
-v 46 collectcd
-v 47 enterinformationinCBS
-v 48 sendlist1
-v 49 receivelist2
-v 50 assignstudents
-v 51 reebookstudentsinCBS
-v 52 chooseelectivecourse
-v 53 lookatcourseinCBS
-e 41 42 48
-e 42 43 49
-e 43 44 50
-e 44 45 51
-e 46 47 52
-e 47 48 53
-e 48 49 54
-e 49 50 55
-e 50 51 56
-e 43 45 57
-e 52 53 58
-t # 0
-v 0 evaluatetheApplication
-v 1 createanewbankaccount
-v 2 sendawelomepackinaletter
-v 3 sendaPINnumberinaletter
-v 4 sendabankcardinaletter
-v 5 notifythecustomerbyemail
-e 0 1 0
-e 1 2 1
-e 2 3 2
-e 3 4 3
-e 2 4 4
-e 4 3 5
-e 1 4 6
-e 3 2 7
-e 0 5 8
-e 1 3 9
-e 4 2 10
-t # 1
-v 6 assessrisk
-v 7 carryoutanadvancedriskassessment
-v 8 organizedisbursement
-v 9 notifycostumerwiththeresultoftheassessment
-v 10 carryoutasimpleriskassessment
-e 6 7 11
-e 7 8 12
-e 8 9 13
-e 6 10 14
-e 10 9 15
-e 9 8 16
-e 10 8 17
-e 7 9 18
-t # 2
-v 11 registerclaim
-v 12 examineclaim
-v 13 writesettlementrecommendation
-v 14 checktheSettlementrecommendation
-v 15 proceedhandlingprocess
-e 11 12 19
-e 12 13 20
-e 13 14 21
-e 14 15 22
-e 14 13 23
-t # 3
-v 16 checkifclaimantisinsured
-v 17 acceptclaim
-v 18 evaluateSeverityofclaim
-v 19 sendrelevantforms
-v 20 receiverelevantforms
-v 21 checkforcompleteness
-v 22 registerclaim
-v 23 rejectclaim
-v 24 informclaimant
-v 25 receiveupdatedforms
-e 16 17 24
-e 17 18 25
-e 18 19 26
-e 19 20 27
-e 20 21 28
-e 21 22 29
-e 16 23 30
-e 21 24 31
-e 24 25 32
-e 25 21 33
-t # 4
-v 26 checkcompleteness
-v 27 registerclaim
-v 28 performassessement
-v 29 sendletteraboutoutcome
-v 30 contactgarage
-v 31 schedulepagment
-e 26 27 34
-e 27 28 35
-e 28 29 36
-e 26 29 37
-e 28 30 38
-e 30 31 39
-e 31 29 40
-t # 5
-v 32 CheckDocumenta-tion
-v 33 Registerdocumentat-ion
-v 34 checkinsurance
-v 35 Performassessment
-v 36 schedulepayment
-e 32 33 41
-e 33 34 42
-e 34 35 43
-e 35 36 44
-t # 6
-v 37 printorder
-v 38 attachordernotetopinboard
-v 39 writedownorder
-v 40 confimorder
-e 37 38 45
-e 39 38 46
-e 40 37 47
-t # 7
-v 41 writecoursedescription
-v 42 sendcoursedescription(cd)
-v 43 receivelist1
-v 44 Createemptylist2
-v 45 sendlist2
-v 46 collectcd
-v 47 enterinformationinCBS
-v 48 sendlist1
-v 49 receivelist2
-v 50 assignstudents
-v 51 reebookstudentsinCBS
-v 52 chooseelectivecourse
-v 53 lookatcourseinCBS
-e 41 42 48
-e 42 43 49
-e 43 44 50
-e 44 45 51
-e 46 47 52
-e 47 48 53
-e 48 49 54
-e 49 50 55
-e 50 51 56
-e 43 45 57
-e 52 53 58
-t # 0
-v 0 evaluatetheApplication
-v 1 createanewbankaccount
-v 2 sendawelomepackinaletter
-v 3 sendaPINnumberinaletter
-v 4 sendabankcardinaletter
-v 5 notifythecustomerbyemail
-e 0 1 0
-e 1 2 1
-e 2 3 2
-e 3 4 3
-e 2 4 4
-e 4 3 5
-e 1 4 6
-e 3 2 7
-e 0 5 8
-e 1 3 9
-e 4 2 10
-t # 1
-v 6 assessrisk
-v 7 carryoutanadvancedriskassessment
-v 8 organizedisbursement
-v 9 notifycostumerwiththeresultoftheassessment
-v 10 carryoutasimpleriskassessment
-e 6 7 11
-e 7 8 12
-e 8 9 13
-e 6 10 14
-e 10 9 15
-e 9 8 16
-e 10 8 17
-e 7 9 18
-t # 2
-v 11 registerclaim
-v 12 examineclaim
-v 13 writesettlementrecommendation
-v 14 checktheSettlementrecommendation
-v 15 proceedhandlingprocess
-e 11 12 19
-e 12 13 20
-e 13 14 21
-e 14 15 22
-e 14 13 23
-t # 3
-v 16 checkifclaimantisinsured
-v 17 acceptclaim
-v 18 evaluateSeverityofclaim
-v 19 sendrelevantforms
-v 20 receiverelevantforms
-v 21 checkforcompleteness
-v 22 registerclaim
-v 23 rejectclaim
-v 24 informclaimant
-v 25 receiveupdatedforms
-e 16 17 24
-e 17 18 25
-e 18 19 26
-e 19 20 27
-e 20 21 28
-e 21 22 29
-e 16 23 30
-e 21 24 31
-e 24 25 32
-e 25 21 33
-t # 4
-v 26 checkcompleteness
-v 27 registerclaim
-v 28 performassessement
-v 29 sendletteraboutoutcome
-v 30 contactgarage
-v 31 schedulepagment
-e 26 27 34
-e 27 28 35
-e 28 29 36
-e 26 29 37
-e 28 30 38
-e 30 31 39
-e 31 29 40
-t # 5
-v 32 CheckDocumenta-tion
-v 33 Registerdocumentat-ion
-v 34 checkinsurance
-v 35 Performassessment
-v 36 schedulepayment
-e 32 33 41
-e 33 34 42
-e 34 35 43
-e 35 36 44
-t # 6
-v 37 printorder
-v 38 attachordernotetopinboard
-v 39 writedownorder
-v 40 confimorder
-e 37 38 45
-e 39 38 46
-e 40 37 47
-t # 7
-v 41 writecoursedescription
-v 42 sendcoursedescription(cd)
-v 43 receivelist1
-v 44 Createemptylist2
-v 45 sendlist2
-v 46 collectcd
-v 47 enterinformationinCBS
-v 48 sendlist1
-v 49 receivelist2
-v 50 assignstudents
-v 51 reebookstudentsinCBS
-v 52 chooseelectivecourse
-v 53 lookatcourseinCBS
-e 41 42 48
-e 42 43 49
-e 43 44 50
-e 44 45 51
-e 46 47 52
-e 47 48 53
-e 48 49 54
-e 49 50 55
-e 50 51 56
-e 43 45 57
-e 52 53 58
-t # 0
-v 0 evaluatetheApplication
-v 1 createanewbankaccount
-v 2 sendawelomepackinaletter
-v 3 sendaPINnumberinaletter
-v 4 sendabankcardinaletter
-v 5 notifythecustomerbyemail
-e 0 1 0
-e 1 2 1
-e 2 3 2
-e 3 4 3
-e 2 4 4
-e 4 3 5
-e 1 4 6
-e 3 2 7
-e 0 5 8
-e 1 3 9
-e 4 2 10
-t # 1
-v 6 assessrisk
-v 7 carryoutanadvancedriskassessment
-v 8 organizedisbursement
-v 9 notifycostumerwiththeresultoftheassessment
-v 10 carryoutasimpleriskassessment
-e 6 7 11
-e 7 8 12
-e 8 9 13
-e 6 10 14
-e 10 9 15
-e 9 8 16
-e 10 8 17
-e 7 9 18
-t # 2
-v 11 registerclaim
-v 12 examineclaim
-v 13 writesettlementrecommendation
-v 14 checktheSettlementrecommendation
-v 15 proceedhandlingprocess
-e 11 12 19
-e 12 13 20
-e 13 14 21
-e 14 15 22
-e 14 13 23
-t # 3
-v 16 checkifclaimantisinsured
-v 17 acceptclaim
-v 18 evaluateSeverityofclaim
-v 19 sendrelevantforms
-v 20 receiverelevantforms
-v 21 checkforcompleteness
-v 22 registerclaim
-v 23 rejectclaim
-v 24 informclaimant
-v 25 receiveupdatedforms
-e 16 17 24
-e 17 18 25
-e 18 19 26
-e 19 20 27
-e 20 21 28
-e 21 22 29
-e 16 23 30
-e 21 24 31
-e 24 25 32
-e 25 21 33
-t # 4
-v 26 checkcompleteness
-v 27 registerclaim
-v 28 performassessement
-v 29 sendletteraboutoutcome
-v 30 contactgarage
-v 31 schedulepagment
-e 26 27 34
-e 27 28 35
-e 28 29 36
-e 26 29 37
-e 28 30 38
-e 30 31 39
-e 31 29 40
-t # 5
-v 32 CheckDocumenta-tion
-v 33 Registerdocumentat-ion
-v 34 checkinsurance
-v 35 Performassessment
-v 36 schedulepayment
-e 32 33 41
-e 33 34 42
-e 34 35 43
-e 35 36 44
-t # 6
-v 37 printorder
-v 38 attachordernotetopinboard
-v 39 writedownorder
-v 40 confimorder
-e 37 38 45
-e 39 38 46
-e 40 37 47
-t # 7
-v 41 writecoursedescription
-v 42 sendcoursedescription(cd)
-v 43 receivelist1
-v 44 Createemptylist2
-v 45 sendlist2
-v 46 collectcd
-v 47 enterinformationinCBS
-v 48 sendlist1
-v 49 receivelist2
-v 50 assignstudents
-v 51 reebookstudentsinCBS
-v 52 chooseelectivecourse
-v 53 lookatcourseinCBS
-e 41 42 48
-e 42 43 49
-e 43 44 50
-e 44 45 51
-e 46 47 52
-e 47 48 53
-e 48 49 54
-e 49 50 55
-e 50 51 56
-e 43 45 57
-e 52 53 58
+-6921340037882440039
+createanewbankaccount 
+confidence: 0.3333333333333333
+4825388085967054392
+sendawelomepackinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendawelomepackinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+4825388085967054392
+sendabankcardinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendabankcardinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+4825388085967054392
+sendaPINnumberinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendaPINnumberinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+-6921340037882440039
+createanewbankaccount notifythecustomerbyemail 
+confidence: 0.3333333333333333
+-6921340037882440039
+notifythecustomerbyemail 
+confidence: 0.3333333333333333
+5333797937268305126
+sendawelomepackinaletter 
+confidence: 0.14285714285714285
+1154507444394024941
+sendaPINnumberinaletter 
+confidence: 0.2
+2147035171319975087
+sendabankcardinaletter 
+confidence: 1.0
+1154507444394024941
+sendaPINnumberinaletter sendabankcardinaletter 
+confidence: 0.2
+1154507444394024941
+sendaPINnumberinaletter sendabankcardinaletter 
+confidence: 0.2
+1154507444394024941
+sendabankcardinaletter 
+confidence: 0.2
+6209765126220316203
+sendaPINnumberinaletter 
+confidence: 1.0
+1154507444394024941
+sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendawelomepackinaletter sendabankcardinaletter 
+confidence: 0.14285714285714285
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendawelomepackinaletter sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+5333797937268305126
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendawelomepackinaletter sendabankcardinaletter 
+confidence: 0.2
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+5333797937268305126
+sendabankcardinaletter 
+confidence: 0.14285714285714285
+4112549528127042719
+sendaPINnumberinaletter 
+confidence: 0.2
+-3881389604209062276
+sendawelomepackinaletter 
+confidence: 1.0
+4112549528127042719
+sendawelomepackinaletter 
+confidence: 0.2
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+11271684957683444550
+sendaPINnumberinaletter 
+confidence: 1.0
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+5333797937268305126
+sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendabankcardinaletter 
+confidence: 0.2
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+2290009160742918085
+sendawelomepackinaletter 
+confidence: 1.0
+4448176956211069731
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+4448176956211069731
+sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+13380353767735083795
+sendabankcardinaletter 
+confidence: 1.0
+5586856660555511729
+sendaPINnumberinaletter 
+confidence: 0.5
+5586856660555511729
+sendabankcardinaletter 
+confidence: 0.5
+-5308032853746314255
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+-10152106927804256641
+sendawelomepackinaletter 
+confidence: 0.5
+-10152106927804256641
+sendawelomepackinaletter 
+confidence: 0.5
+-2158167795468151646
+sendawelomepackinaletter 
+confidence: 1.0
+-5308032853746314255
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.3333333333333333
+9924704538449964210
+sendabankcardinaletter 
+confidence: 0.5
+-5308032853746314255
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+9924704538449964210
+sendabankcardinaletter 
+confidence: 0.5
+8932176811524014064
+sendabankcardinaletter 
+confidence: 1.0
+5642656518470877467
+sendaPINnumberinaletter 
+confidence: 0.5
+-7993939132336104995
+sendawelomepackinaletter 
+confidence: 1.0
+5642656518470877467
+sendawelomepackinaletter 
+confidence: 0.5
+-3009937483167822498
+carryoutanadvancedriskassessment 
+confidence: 0.3333333333333333
+-4561416416294524514
+organizedisbursement 
+confidence: 0.16666666666666666
+-7422130603966265901
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-7422130603966265901
+notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.5
+-4561416416294524514
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+-4561416416294524514
+organizedisbursement notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+-4561416416294524514
+organizedisbursement carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+4158612846632686925
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-4561416416294524514
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+-11086195026966013384
+organizedisbursement 
+confidence: 0.5
+-15257099295671728594
+carryoutasimpleriskassessment 
+confidence: 1.0
+-11086195026966013384
+organizedisbursement carryoutasimpleriskassessment 
+confidence: 0.5
+-4561416416294524514
+notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+4158612846632686925
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.5
+-3009937483167822498
+carryoutanadvancedriskassessment carryoutasimpleriskassessment 
+confidence: 0.3333333333333333
+8720029262927211439
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+1651213215454474502
+carryoutanadvancedriskassessment organizedisbursement 
+confidence: 0.5
+-2519691053251240708
+carryoutanadvancedriskassessment 
+confidence: 1.0
+8720029262927211439
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.16666666666666666
+8720029262927211439
+carryoutanadvancedriskassessment organizedisbursement 
+confidence: 0.16666666666666666
+5315277638454221985
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-3009937483167822498
+carryoutasimpleriskassessment 
+confidence: 0.3333333333333333
+8720029262927211439
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+1651213215454474502
+organizedisbursement 
+confidence: 0.5
+8720029262927211439
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.16666666666666666
+8720029262927211439
+organizedisbursement 
+confidence: 0.16666666666666666
+5315277638454221985
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-8573364740542216764
+organizedisbursement 
+confidence: 0.3333333333333333
+-2860714187671741387
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-8573364740542216764
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-8573364740542216764
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-6524778610671488870
+organizedisbursement 
+confidence: 1.0
+4965314070379823132
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-5629008936075830573
+organizedisbursement 
+confidence: 1.0
+-2339211796565771462
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-7068816047472736937
+organizedisbursement 
+confidence: 1.0
+-2339211796565771462
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.3333333333333333
+-2339211796565771462
+organizedisbursement 
+confidence: 0.3333333333333333
+-3404751624472989454
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-214218504903231326
+examineclaim 
+confidence: 0.5
+5712482941165592204
+writesettlementrecommendation 
+confidence: 1.0
+3061141171996136041
+writesettlementrecommendation 
+confidence: 1.0
+-2031324732193306915
+checktheSettlementrecommendation 
+confidence: 1.0
+-9143053302831254330
+proceedhandlingprocess 
+confidence: 0.3333333333333333
+-9143053302831254330
+proceedhandlingprocess writesettlementrecommendation 
+confidence: 0.3333333333333333
+-7805155364214485173
+proceedhandlingprocess 
+confidence: 1.0
+-9143053302831254330
+writesettlementrecommendation 
+confidence: 0.3333333333333333
+4046897336971882811
+acceptclaim 
+confidence: 0.3333333333333333
+-1786312877749554197
+evaluateSeverityofclaim 
+confidence: 0.5
+-1786312877749554197
+evaluateSeverityofclaim rejectclaim 
+confidence: 0.5
+4046897336971882811
+acceptclaim rejectclaim 
+confidence: 0.3333333333333333
+4046897336971882811
+rejectclaim 
+confidence: 0.3333333333333333
+-254850269125207327
+evaluateSeverityofclaim 
+confidence: 1.0
+-3392350711392364820
+sendrelevantforms 
+confidence: 1.0
+-8349229592997024693
+receiverelevantforms 
+confidence: 1.0
+-9861619544897324976
+checkforcompleteness 
+confidence: 1.0
+-10460442954810035915
+registerclaim 
+confidence: 0.3333333333333333
+-10460442954810035915
+registerclaim informclaimant 
+confidence: 0.3333333333333333
+-8631393275688719303
+registerclaim receiveupdatedforms 
+confidence: 0.5
+-2762262702946689493
+registerclaim 
+confidence: 1.0
+-10460442954810035915
+informclaimant 
+confidence: 0.3333333333333333
+-8631393275688719303
+receiveupdatedforms 
+confidence: 0.5
+4764360092708404776
+sendrelevantforms 
+confidence: 1.0
+-4956878881604659873
+receiverelevantforms 
+confidence: 1.0
+2030425011088024782
+receiverelevantforms 
+confidence: 1.0
+8264484715047758765
+checkforcompleteness 
+confidence: 1.0
+-598823409912710939
+registerclaim 
+confidence: 1.0
+6578810104234976265
+registerclaim 
+confidence: 0.3333333333333333
+6578810104234976265
+registerclaim informclaimant 
+confidence: 0.3333333333333333
+1829049679121316612
+registerclaim receiveupdatedforms 
+confidence: 0.5
+7698180251863346422
+registerclaim 
+confidence: 1.0
+6578810104234976265
+informclaimant 
+confidence: 0.3333333333333333
+1829049679121316612
+receiveupdatedforms 
+confidence: 0.5
+-4140101444250572657
+receiveupdatedforms 
+confidence: 1.0
+5956763984922049822
+checkforcompleteness 
+confidence: 1.0
+-2447633063586134817
+registerclaim 
+confidence: 1.0
+971999730418989205
+registerclaim 
+confidence: 0.3333333333333333
+6292870904469430346
+performassessement 
+confidence: 0.5
+6382776681938195069
+sendletteraboutoutcome 
+confidence: 0.25
+6382776681938195069
+sendletteraboutoutcome contactgarage 
+confidence: 0.25
+14991044675082776889
+sendletteraboutoutcome schedulepagment 
+confidence: 0.3333333333333333
+6382776681938195069
+contactgarage 
+confidence: 0.25
+14991044675082776889
+schedulepagment 
+confidence: 0.3333333333333333
+21212052611914760147
+sendletteraboutoutcome 
+confidence: 1.0
+14991044675082776889
+schedulepagment sendletteraboutoutcome 
+confidence: 0.3333333333333333
+6382776681938195069
+contactgarage sendletteraboutoutcome 
+confidence: 0.25
+6292870904469430346
+performassessement sendletteraboutoutcome 
+confidence: 0.5
+971999730418989205
+registerclaim sendletteraboutoutcome 
+confidence: 0.3333333333333333
+971999730418989205
+sendletteraboutoutcome 
+confidence: 0.3333333333333333
+-214218504903231326
+performassessement 
+confidence: 0.5
+89905777468764723
+sendletteraboutoutcome 
+confidence: 1.0
+8410447388575751453
+sendletteraboutoutcome 
+confidence: 0.5
+8410447388575751453
+contactgarage 
+confidence: 0.5
+8608267993144581820
+schedulepagment 
+confidence: 1.0
+-6633090588162537888
+schedulepagment 
+confidence: 1.0
+6221007936831983258
+sendletteraboutoutcome 
+confidence: 1.0
+-3648126357182310758
+sendletteraboutoutcome 
+confidence: 1.0
+5808145826586442234
+Registerdocumentat-ion 
+confidence: 1.0
+-3189010874431914097
+checkinsurance 
+confidence: 1.0
+-7542836909671281644
+Performassessment 
+confidence: 1.0
+-12594582380016593019
+schedulepayment 
+confidence: 1.0
+-5340615203344122782
+checkinsurance 
+confidence: 1.0
+-4221184827528134699
+Performassessment 
+confidence: 1.0
+-5051745470345311375
+schedulepayment 
+confidence: 1.0
+-7501195053252529858
+schedulepayment 
+confidence: 1.0
+6350905313309174456
+attachordernotetopinboard 
+confidence: 1.0
+-7190608393048924725
+attachordernotetopinboard 
+confidence: 1.0
+7168635070019277025
+printorder 
+confidence: 1.0
+6288826390187743516
+sendcoursedescription(cd) 
+confidence: 1.0
+4188217141002198892
+receivelist1 
+confidence: 1.0
+-1772351672188570248
+sendlist2 
+confidence: 1.0
+6081763120109156898
+Createemptylist2 
+confidence: 0.3333333333333333
+8956328098098517955
+sendlist2 
+confidence: 1.0
+6081763120109156898
+Createemptylist2 sendlist2 
+confidence: 0.3333333333333333
+6081763120109156898
+sendlist2 
+confidence: 0.3333333333333333
+2429647353367124835
+sendlist2 
+confidence: 1.0
+-5183496197498854271
+enterinformationinCBS 
+confidence: 1.0
+4531783860687705629
+sendlist1 
+confidence: 1.0
+5649862162859344546
+receivelist2 
+confidence: 1.0
+8021550046729491744
+sendlist1 
+confidence: 1.0
+1118078302171638917
+receivelist2 
+confidence: 1.0
+4070940121305547846
+receivelist2 
+confidence: 1.0
+-4375567486120795071
+assignstudents 
+confidence: 1.0
+-7108054356979930625
+reebookstudentsinCBS 
+confidence: 1.0
+5980013656329323653
+reebookstudentsinCBS 
+confidence: 1.0
+-6921340037882440039
+createanewbankaccount 
+confidence: 0.3333333333333333
+4825388085967054392
+sendawelomepackinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendawelomepackinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+4825388085967054392
+sendabankcardinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendabankcardinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+4825388085967054392
+sendaPINnumberinaletter 
+confidence: 0.16666666666666666
+4825388085967054392
+sendaPINnumberinaletter notifythecustomerbyemail 
+confidence: 0.16666666666666666
+-6921340037882440039
+createanewbankaccount notifythecustomerbyemail 
+confidence: 0.3333333333333333
+-6921340037882440039
+notifythecustomerbyemail 
+confidence: 0.3333333333333333
+5333797937268305126
+sendawelomepackinaletter 
+confidence: 0.14285714285714285
+1154507444394024941
+sendaPINnumberinaletter 
+confidence: 0.2
+2147035171319975087
+sendabankcardinaletter 
+confidence: 1.0
+1154507444394024941
+sendaPINnumberinaletter sendabankcardinaletter 
+confidence: 0.2
+1154507444394024941
+sendaPINnumberinaletter sendabankcardinaletter 
+confidence: 0.2
+1154507444394024941
+sendabankcardinaletter 
+confidence: 0.2
+6209765126220316203
+sendaPINnumberinaletter 
+confidence: 1.0
+1154507444394024941
+sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendawelomepackinaletter sendabankcardinaletter 
+confidence: 0.14285714285714285
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendawelomepackinaletter sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+5333797937268305126
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendawelomepackinaletter sendabankcardinaletter 
+confidence: 0.2
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+5333797937268305126
+sendabankcardinaletter 
+confidence: 0.14285714285714285
+4112549528127042719
+sendaPINnumberinaletter 
+confidence: 0.2
+-3881389604209062276
+sendawelomepackinaletter 
+confidence: 1.0
+4112549528127042719
+sendawelomepackinaletter 
+confidence: 0.2
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+16326942639509735812
+sendaPINnumberinaletter 
+confidence: 0.3333333333333333
+11271684957683444550
+sendaPINnumberinaletter 
+confidence: 1.0
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+4112549528127042719
+sendawelomepackinaletter sendaPINnumberinaletter 
+confidence: 0.2
+5333797937268305126
+sendabankcardinaletter sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+5333797937268305126
+sendaPINnumberinaletter 
+confidence: 0.14285714285714285
+4448176956211069731
+sendabankcardinaletter 
+confidence: 0.2
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+-5703929971593186910
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+2290009160742918085
+sendawelomepackinaletter 
+confidence: 1.0
+4448176956211069731
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+4448176956211069731
+sendawelomepackinaletter 
+confidence: 0.2
+14372881494661033941
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+13380353767735083795
+sendabankcardinaletter 
+confidence: 1.0
+5586856660555511729
+sendaPINnumberinaletter 
+confidence: 0.5
+5586856660555511729
+sendabankcardinaletter 
+confidence: 0.5
+-5308032853746314255
+sendabankcardinaletter 
+confidence: 0.3333333333333333
+-10152106927804256641
+sendawelomepackinaletter 
+confidence: 0.5
+-10152106927804256641
+sendawelomepackinaletter 
+confidence: 0.5
+-2158167795468151646
+sendawelomepackinaletter 
+confidence: 1.0
+-5308032853746314255
+sendabankcardinaletter sendawelomepackinaletter 
+confidence: 0.3333333333333333
+9924704538449964210
+sendabankcardinaletter 
+confidence: 0.5
+-5308032853746314255
+sendawelomepackinaletter 
+confidence: 0.3333333333333333
+9924704538449964210
+sendabankcardinaletter 
+confidence: 0.5
+8932176811524014064
+sendabankcardinaletter 
+confidence: 1.0
+5642656518470877467
+sendaPINnumberinaletter 
+confidence: 0.5
+-7993939132336104995
+sendawelomepackinaletter 
+confidence: 1.0
+5642656518470877467
+sendawelomepackinaletter 
+confidence: 0.5
+-3009937483167822498
+carryoutanadvancedriskassessment 
+confidence: 0.3333333333333333
+-4561416416294524514
+organizedisbursement 
+confidence: 0.16666666666666666
+-7422130603966265901
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-7422130603966265901
+notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.5
+-4561416416294524514
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+-4561416416294524514
+organizedisbursement notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+-4561416416294524514
+organizedisbursement carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+4158612846632686925
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-4561416416294524514
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+-11086195026966013384
+organizedisbursement 
+confidence: 0.5
+-15257099295671728594
+carryoutasimpleriskassessment 
+confidence: 1.0
+-11086195026966013384
+organizedisbursement carryoutasimpleriskassessment 
+confidence: 0.5
+-4561416416294524514
+notifycostumerwiththeresultoftheassessment carryoutasimpleriskassessment 
+confidence: 0.16666666666666666
+4158612846632686925
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.5
+-3009937483167822498
+carryoutanadvancedriskassessment carryoutasimpleriskassessment 
+confidence: 0.3333333333333333
+8720029262927211439
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+1651213215454474502
+carryoutanadvancedriskassessment organizedisbursement 
+confidence: 0.5
+-2519691053251240708
+carryoutanadvancedriskassessment 
+confidence: 1.0
+8720029262927211439
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.16666666666666666
+8720029262927211439
+carryoutanadvancedriskassessment organizedisbursement 
+confidence: 0.16666666666666666
+5315277638454221985
+carryoutanadvancedriskassessment notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-3009937483167822498
+carryoutasimpleriskassessment 
+confidence: 0.3333333333333333
+8720029262927211439
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.16666666666666666
+1651213215454474502
+organizedisbursement 
+confidence: 0.5
+8720029262927211439
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.16666666666666666
+8720029262927211439
+organizedisbursement 
+confidence: 0.16666666666666666
+5315277638454221985
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.5
+-8573364740542216764
+organizedisbursement 
+confidence: 0.3333333333333333
+-2860714187671741387
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-8573364740542216764
+organizedisbursement notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-8573364740542216764
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-6524778610671488870
+organizedisbursement 
+confidence: 1.0
+4965314070379823132
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-5629008936075830573
+organizedisbursement 
+confidence: 1.0
+-2339211796565771462
+notifycostumerwiththeresultoftheassessment 
+confidence: 0.3333333333333333
+-7068816047472736937
+organizedisbursement 
+confidence: 1.0
+-2339211796565771462
+notifycostumerwiththeresultoftheassessment organizedisbursement 
+confidence: 0.3333333333333333
+-2339211796565771462
+organizedisbursement 
+confidence: 0.3333333333333333
+-3404751624472989454
+notifycostumerwiththeresultoftheassessment 
+confidence: 1.0
+-214218504903231326
+examineclaim 
+confidence: 0.5
+5712482941165592204
+writesettlementrecommendation 
+confidence: 1.0
+3061141171996136041
+writesettlementrecommendation 
+confidence: 1.0
+-2031324732193306915
+checktheSettlementrecommendation 
+confidence: 1.0
+-9143053302831254330
+proceedhandlingprocess 
+confidence: 0.3333333333333333
+-9143053302831254330
+proceedhandlingprocess writesettlementrecommendation 
+confidence: 0.3333333333333333
+-7805155364214485173
+proceedhandlingprocess 
+confidence: 1.0
+-9143053302831254330
+writesettlementrecommendation 
+confidence: 0.3333333333333333
+4046897336971882811
+acceptclaim 
+confidence: 0.3333333333333333
+-1786312877749554197
+evaluateSeverityofclaim 
+confidence: 0.5
+-1786312877749554197
+evaluateSeverityofclaim rejectclaim 
+confidence: 0.5
+4046897336971882811
+acceptclaim rejectclaim 
+confidence: 0.3333333333333333
+4046897336971882811
+rejectclaim 
+confidence: 0.3333333333333333
+-254850269125207327
+evaluateSeverityofclaim 
+confidence: 1.0
+-3392350711392364820
+sendrelevantforms 
+confidence: 1.0
+-8349229592997024693
+receiverelevantforms 
+confidence: 1.0
+-9861619544897324976
+checkforcompleteness 
+confidence: 1.0
+-10460442954810035915
+registerclaim 
+confidence: 0.3333333333333333
+-10460442954810035915
+registerclaim informclaimant 
+confidence: 0.3333333333333333
+-8631393275688719303
+registerclaim receiveupdatedforms 
+confidence: 0.5
+-2762262702946689493
+registerclaim 
+confidence: 1.0
+-10460442954810035915
+informclaimant 
+confidence: 0.3333333333333333
+-8631393275688719303
+receiveupdatedforms 
+confidence: 0.5
+4764360092708404776
+sendrelevantforms 
+confidence: 1.0
+-4956878881604659873
+receiverelevantforms 
+confidence: 1.0
+2030425011088024782
+receiverelevantforms 
+confidence: 1.0
+8264484715047758765
+checkforcompleteness 
+confidence: 1.0
+-598823409912710939
+registerclaim 
+confidence: 1.0
+6578810104234976265
+registerclaim 
+confidence: 0.3333333333333333
+6578810104234976265
+registerclaim informclaimant 
+confidence: 0.3333333333333333
+1829049679121316612
+registerclaim receiveupdatedforms 
+confidence: 0.5
+7698180251863346422
+registerclaim 
+confidence: 1.0
+6578810104234976265
+informclaimant 
+confidence: 0.3333333333333333
+1829049679121316612
+receiveupdatedforms 
+confidence: 0.5
+-4140101444250572657
+receiveupdatedforms 
+confidence: 1.0
+5956763984922049822
+checkforcompleteness 
+confidence: 1.0
+-2447633063586134817
+registerclaim 
+confidence: 1.0
+971999730418989205
+registerclaim 
+confidence: 0.3333333333333333
+6292870904469430346
+performassessement 
+confidence: 0.5
+6382776681938195069
+sendletteraboutoutcome 
+confidence: 0.25
+6382776681938195069
+sendletteraboutoutcome contactgarage 
+confidence: 0.25
+14991044675082776889
+sendletteraboutoutcome schedulepagment 
+confidence: 0.3333333333333333
+6382776681938195069
+contactgarage 
+confidence: 0.25
+14991044675082776889
+schedulepagment 
+confidence: 0.3333333333333333
+21212052611914760147
+sendletteraboutoutcome 
+confidence: 1.0
+14991044675082776889
+schedulepagment sendletteraboutoutcome 
+confidence: 0.3333333333333333
+6382776681938195069
+contactgarage sendletteraboutoutcome 
+confidence: 0.25
+6292870904469430346
+performassessement sendletteraboutoutcome 
+confidence: 0.5
+971999730418989205
+registerclaim sendletteraboutoutcome 
+confidence: 0.3333333333333333
+971999730418989205
+sendletteraboutoutcome 
+confidence: 0.3333333333333333
+-214218504903231326
+performassessement 
+confidence: 0.5
+89905777468764723
+sendletteraboutoutcome 
+confidence: 1.0
+8410447388575751453
+sendletteraboutoutcome 
+confidence: 0.5
+8410447388575751453
+contactgarage 
+confidence: 0.5
+8608267993144581820
+schedulepagment 
+confidence: 1.0
+-6633090588162537888
+schedulepagment 
+confidence: 1.0
+6221007936831983258
+sendletteraboutoutcome 
+confidence: 1.0
+-3648126357182310758
+sendletteraboutoutcome 
+confidence: 1.0
+5808145826586442234
+Registerdocumentat-ion 
+confidence: 1.0
+-3189010874431914097
+checkinsurance 
+confidence: 1.0
+-7542836909671281644
+Performassessment 
+confidence: 1.0
+-12594582380016593019
+schedulepayment 
+confidence: 1.0
+-5340615203344122782
+checkinsurance 
+confidence: 1.0
+-4221184827528134699
+Performassessment 
+confidence: 1.0
+-5051745470345311375
+schedulepayment 
+confidence: 1.0
+-7501195053252529858
+schedulepayment 
+confidence: 1.0
+6350905313309174456
+attachordernotetopinboard 
+confidence: 1.0
+-7190608393048924725
+attachordernotetopinboard 
+confidence: 1.0
+7168635070019277025
+printorder 
+confidence: 1.0
+6288826390187743516
+sendcoursedescription(cd) 
+confidence: 1.0
+4188217141002198892
+receivelist1 
+confidence: 1.0
+-1772351672188570248
+sendlist2 
+confidence: 1.0
+6081763120109156898
+Createemptylist2 
+confidence: 0.3333333333333333
+8956328098098517955
+sendlist2 
+confidence: 1.0
+6081763120109156898
+Createemptylist2 sendlist2 
+confidence: 0.3333333333333333
+6081763120109156898
+sendlist2 
+confidence: 0.3333333333333333
+2429647353367124835
+sendlist2 
+confidence: 1.0
+-5183496197498854271
+enterinformationinCBS 
+confidence: 1.0
+4531783860687705629
+sendlist1 
+confidence: 1.0
+5649862162859344546
+receivelist2 
+confidence: 1.0
+8021550046729491744
+sendlist1 
+confidence: 1.0
+1118078302171638917
+receivelist2 
+confidence: 1.0
+4070940121305547846
+receivelist2 
+confidence: 1.0
+-4375567486120795071
+assignstudents 
+confidence: 1.0
+-7108054356979930625
+reebookstudentsinCBS 
+confidence: 1.0
+5980013656329323653
+reebookstudentsinCBS 
+confidence: 1.0
