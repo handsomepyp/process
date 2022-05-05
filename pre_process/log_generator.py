@@ -4,7 +4,7 @@ import os
 # bpmn -> petri net -> process tree -> log(.xes) -> graph
 
 src = 'dataset/'
-res_path = 'xes_log/'
+res_path = 'new_log/'
 
 
 def traverse_file(path):
@@ -61,8 +61,6 @@ if __name__ == '__main__':
         # print(final_name)
         final_name += '.xes'
         result_files = os.listdir(res_path)
-        if final_name in result_files:
-            continue
         # 2.1 生成Petri net
         net, im, fm = bpmn_to_petri(file)
         # 2.2 生成process tree

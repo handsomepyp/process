@@ -1,0 +1,73 @@
+v 0 onlineApplicationreceived online Application received
+v 1 evaluatetheApplication evaluate the Application
+v 2 notifythecustomerbyemail notify the customer by email
+v 3 Applicationrejected Application rejected
+v 4 createanewbankaccount create a new bank account
+v 5 sendawelcomepackinaletter send a welcome pack in a letter
+v 6 sendabankcardinaletter send a bank card in a letter
+v 7 sendaPINnumberinaletter send a PIN number in a letter
+v 8 Anewbankaccountwascreated A new bank account was created
+v 9 requestreceived request received
+v 10 evaluaterequest evaluate request
+v 11 acceptrequest accept request
+v 12 rejectrequest reject request
+v 13 Endprocess End process
+v 14 sss send a welcome pack in a letter, send a bank card in a letter, send a PIN number in a letter
+v 15 creditcardrequestreceived credit card request received
+v 16 assessrisk assess risk
+v 17 carryoutanadvancedriskassessment carry out an advanced risk assessment
+v 18 carryoutasimpleriskassessment carry out a simple risk assessment
+v 19 notifycostumerwiththeresultoftheassessment notify costumer with the result of the assessment
+v 20 organizedisbursement organize disbursement
+v 21 creditcardrequestaccepted credit card request accepted
+v 22 claim claim
+v 23 registerclaim register claim
+v 24 examineclaim examine claim
+v 25 writesettlementrecommendation write settlement recommendation
+v 26 checkthesettlementrecommendation check the settlement recommendation
+v 27 proceedhandlingprocess proceed handling process
+v 28 claimclosed claim closed
+v 29 evaluaterecommendation evaluate recommendation
+v 30 sendbackrecommendation send back recommendation
+v 31 rewritesettlementofrecommendation rewrite settlement of recommendation
+v 32 checkclaim check claim
+v 33 sendbacktoclaimofficer send back to claim officer
+v 34 registerandexamineclaim register and examine claim
+v 35 markclaim"OK" mark claim "OK"
+v 36 markclaim"Not OK" mark claim "Not OK"
+v 37 sentlock sent lock
+v 38 markclaim mark claim
+v 39 claimreceived claim received
+v 40 checkifclaimantisinsured check if claimant is insured
+v 41 acceptclaim accept claim
+v 42 rejectclaim reject claim
+v 43 evaluateSeverityofclaim evaluate Severity of claim
+v 44 sendrelevantforms send relevant forms
+v 45 receiverelevantforms receive relevant forms
+v 46 checkforcompleteness check for completeness
+v 47 informclaimant inform claimant
+v 48 registerclaim register claim
+v 49 receiveupdatedforms receive updated forms
+v 50 claimrejected claim rejected
+v 51 claimaccepted claim accepted
+v 52 claimsubmitted claim submitted
+v 53 checkcompleteness check completeness
+v 54 performassessment perform assessment
+v 55 contactgarage contact garage
+v 56 schedulepayment schedule payment
+v 57 sendletteraboutoutcome send letter about outcome
+v 58 checkdocumentation check documentation
+v 59 registerdocumentation register documentation
+v 60 checkinsurance check insurance
+v 61 performassessment perform assessment
+v 62 neworder new order
+v 63 receiveorderbyLieferando receive order by Lieferando
+v 64 receiveorderbywebsite receive order by website
+v 65 takeorderbyphone take order by phone
+v 66 confirmorder confirm order
+v 67 writedownorder write down order
+v 68 printoutorder print out order
+v 69 attachordertopinboard attach order to pin board
+v 70 orderprocessfinished order process finished
+
+
