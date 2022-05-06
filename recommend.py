@@ -59,3 +59,4 @@ if __name__ == '__main__':
             graph.append(list(content.split()))
         # print(graph)
         recommendGraph(graph)
+

@@ -1,6 +1,18 @@
 import os
 from collections import Counter
-import hashlib
+
+
+def label_to_number():
+    counter = Counter()
+    revcounter = Counter()
+    with open('./graph_dataset/vertex', 'r') as f:
+        while True:
+            line = list(f.readline().split())  # 逐行读取
+            if not line:
+                break
+            counter[line[2].lower()] = line[1]
+            revcounter[line[1]] = line[2].lower()
+    return counter, revcounter
 
 
 class Pattern:
@@ -98,9 +110,9 @@ def decomposition(lines):
                 for edge in edges:
                     if edge[0] not in candidate_node_sets_number and number_to_label[edge[0]] not in upstream_subpath:
                         upstream_subpath.append(number_to_label[edge[0]])
-            #print(upstream_subpath, '->', end='')
-            #print(candidate_node_sets, '->', end='')
-            #print('support =', support)
+            # print(upstream_subpath, '->', end='')
+            # print(candidate_node_sets, '->', end='')
+            # print('support =', support)
             all_upstream_subpath.append(upstream_subpath)
             all_candidate_node_sets.append(candidate_node_sets)
             Pattern_add(upstream_subpath, candidate_node_sets, support)
@@ -136,24 +148,23 @@ def hash_graph(graph):
 
 
 if __name__ == '__main__':
-    file = open('./sub_graph/sub_graph_data')
+    counter, revcounter = label_to_number()
+    file = open('./sub_graph/new_data')
     lines = file.readlines()
     file.close()
     decomposition(lines)
     elements = pl.list
     dic = pt.Table
     l = pt.Tables
-    #for table in l:
-     #   print(table.element, dic[table.val])
     file = open('finally_result', mode="a")
     for element in elements:
         us = UpstreamSubgraph(element.Upstream_Subgraph)
-        print(element.Upstream_Subgraph, '->', element.Candidate_Node_Sets, '->',
-              'confidence', int(element.support) / dic[us.val])
-        # hash + Candidate_Node_Sets + confidence
-        # print(hash_graph(element.Upstream_Subgraph))
-        file.write(str(hash_graph(element.Upstream_Subgraph)) + '\n')
-        print(hash_graph(element.Upstream_Subgraph))
+        # print(element.Upstream_Subgraph, '->', element.Candidate_Node_Sets, '->', \
+        #       'confidence', int(element.support) / dic[us.val])
+        for edges in element.Upstream_Subgraph:
+            for node in edges:
+                file.write(revcounter[node] + ' ')
+            file.write("\n")
         for ver in element.Candidate_Node_Sets:
             file.write(str(ver) + ' ')
         file.write('\n')
