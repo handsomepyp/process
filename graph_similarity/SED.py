@@ -20,6 +20,6 @@ def SEDist(str1, str2):
 
 
 if __name__ == '__main__':
-    s = "wenzhubuhuang"
+    s = ""
     t = "hello world"
     print(SEDist(s, t))

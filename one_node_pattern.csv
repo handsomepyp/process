@@ -1,27 +1,27 @@
 ,us,cns,conf
-0,['onlineapplicationreceived'],1 ,1.0
-1,['evaluatetheapplication'],2 ,0.3333333333333333
-2,['evaluatetheapplication'],2 4 ,0.3262411347517731
-3,['evaluatetheapplication'],2 5 ,0.0070921985815602835
-4,['evaluatetheapplication'],4 ,0.3262411347517731
-5,['notifythecustomerbyemail'],3 ,1.0
-6,['createanewbankaccount'],5 ,0.16129032258064516
-7,['createanewbankaccount'],5 6 ,0.13870967741935483
-8,['createanewbankaccount'],5 6 7 ,0.13870967741935483
-9,['createanewbankaccount'],5 7 ,0.13870967741935483
-10,['createanewbankaccount'],6 ,0.13870967741935483
-11,['createanewbankaccount'],6 7 ,0.13870967741935483
-12,['createanewbankaccount'],7 ,0.13870967741935483
-13,['sendawelcomepackinaletter'],8 ,0.7924528301886793
-14,['sendabankcardinaletter'],8 ,0.8431372549019608
-15,['sendapinnumberinaletter'],8 ,0.9803921568627451
-16,['requestreceived'],10 ,1.0
-17,['sendawelcomepackinaletter'],13 ,0.018867924528301886
-18,['sendabankcardinaletter'],13 ,0.0196078431372549
-19,['sendapinnumberinaletter'],13 ,0.0196078431372549
-20,['sendawelcomepackinaletter'],6 ,0.1509433962264151
-21,['sendawelcomepackinaletter'],6 7 ,0.018867924528301886
-22,['sendabankcardinaletter'],7 ,0.13725490196078433
-23,['createanewbankaccount'],14 ,0.0064516129032258064
-24,['evaluatetheapplication'],5 ,0.0070921985815602835
-25,['sendawelcomepackinaletter'],7 ,0.018867924528301886
+0,onlineapplicationreceived,1 ,1.0
+1,evaluatetheapplication,2 ,0.3333333333333333
+2,evaluatetheapplication,2 4 ,0.3262411347517731
+3,evaluatetheapplication,2 5 ,0.0070921985815602835
+4,evaluatetheapplication,4 ,0.3262411347517731
+5,notifythecustomerbyemail,3 ,1.0
+6,createanewbankaccount,5 ,0.16129032258064516
+7,createanewbankaccount,5 6 ,0.13870967741935483
+8,createanewbankaccount,5 6 7 ,0.13870967741935483
+9,createanewbankaccount,5 7 ,0.13870967741935483
+10,createanewbankaccount,6 ,0.13870967741935483
+11,createanewbankaccount,6 7 ,0.13870967741935483
+12,createanewbankaccount,7 ,0.13870967741935483
+13,sendawelcomepackinaletter,8 ,0.7924528301886793
+14,sendabankcardinaletter,8 ,0.8431372549019608
+15,sendapinnumberinaletter,8 ,0.9803921568627451
+16,requestreceived,10 ,1.0
+17,sendawelcomepackinaletter,13 ,0.018867924528301886
+18,sendabankcardinaletter,13 ,0.0196078431372549
+19,sendapinnumberinaletter,13 ,0.0196078431372549
+20,sendawelcomepackinaletter,6 ,0.1509433962264151
+21,sendawelcomepackinaletter,6 7 ,0.018867924528301886
+22,sendabankcardinaletter,7 ,0.13725490196078433
+23,createanewbankaccount,14 ,0.0064516129032258064
+24,evaluatetheapplication,5 ,0.0070921985815602835
+25,sendawelcomepackinaletter,7 ,0.018867924528301886

@@ -32,6 +32,7 @@ def DFS(ver, graph):
                       + frm + ',1,' + to + ')'
         DFS(next_ver, graph)
 
+
 if __name__ == '__main__':
 
     one_node_list = []
@@ -47,7 +48,7 @@ if __name__ == '__main__':
             st = {}
             ver = "begin"
             if len(line) == 1: # 上游子图是一个点
-                element["us"] = line
+                element["us"] = line[0]
                 line = list(f.readline().split())
                 cns = ""
                 for l in line:
@@ -56,7 +57,7 @@ if __name__ == '__main__':
                 line = list(f.readline().split())
                 element["conf"] = line[1]
                 one_node_list.append(element)
-            else:
+            else: # 上游子图是一个图
                 while True:
                     if ver == "begin":
                         ver = line[0]

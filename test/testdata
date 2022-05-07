@@ -1,0 +1,14 @@
+t # 0
+onlineApplicationreceived
+result: evaluatetheapplication
+t # 1
+onlineApplicationreceived evaluatetheapplication
+result: notifythecustomerbyemail
+t # 2
+onlineApplicationreceived evaluatetheapplication
+result: createnewbankaccount
+t # 3
+onlineApplicationreceived evaluatetheapplication
+evaluatetheapplication createnewbankaccount
+result: sendaPINnumber sendabankcard sendawelcomepack
+t # -1
