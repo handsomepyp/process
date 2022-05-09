@@ -1,0 +1,197 @@
+test # 1
+online Application received
+res: evaluate the application
+
+test # 2
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 3
+online Application received -> evaluate the application
+res: create new bank account
+
+test # 4
+online Application received -> evaluate the application
+evaluate the application -> create new bank account
+res: send a PIN number + send a bankcard + send a welcome pack
+
+test # 5
+online Application received
+res: evaluate the application
+
+test # 6
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 7
+online Application received -> evaluate the application
+evaluate the application -> Notify customer by email
+res: Customer notified
+
+test # 8
+online Application received -> evaluate the application
+evaluate the application -> Create a new bank account
+Create a new bank account -> send welcome pack
+Create a new bank account -> send PIN number
+Create a new bank account -> send bank card
+res: a new bank account was created
+
+test # 9
+online Application received
+res: evaluate the application
+
+test # 10
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 11
+online Application received -> evaluate the application
+evaluate the application -> Notify customer by email
+res: Customer notified
+
+test # 12
+online Application received -> evaluate the application
+evaluate the application -> Create a new bank account
+Create a new bank account -> send welcome pack
+Create a new bank account -> send PIN number
+
+test # 13
+online Application received
+res: evaluate the application
+
+test # 14
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 15
+online Application received -> evaluate the application
+evaluate the application -> Notify customer by email
+res: Customer notified
+
+test # 16
+online Application received -> evaluate the application
+evaluate the application -> Create a new bank account
+Create a new bank account -> send welcome pack
+Create a new bank account -> send PIN number
+
+test # 17
+online Application received
+res: evaluate the application
+
+test # 18
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 19
+online Application received -> evaluate the application
+evaluate the application -> Notify customer by email
+res: Customer notified
+
+test # 20
+online Application received -> evaluate the application
+evaluate the application -> Create a new bank account
+Create a new bank account -> send welcome pack
+Create a new bank account -> send PIN number
+
+test # 21
+online Application received
+res: evaluate the application
+
+test # 22
+online Application received -> evaluate the application
+res: notify the customer by email
+
+test # 23
+online Application received -> evaluate the application
+evaluate the application -> Notify customer by email
+res: Customer notified
+
+test # 24
+online Application received -> evaluate the application
+evaluate the application -> Create a new bank account
+Create a new bank account -> send welcome pack
+Create a new bank account -> send PIN number
+
+test # 25
+credit card request received
+res: assess risk
+
+test # 26
+credit card request received -> assess risk
+res: carry out an advanced risk assessment
+
+test # 27
+credit card request received -> assess the risk
+res: carry out an advanced risk assessment
+
+test # 28
+credit card request received -> assess risk
+assess risk -> carry out an advanced risk assessment
+res: notify costumer with the result of the assessment + organize disbursement
+
+test # 29
+credit card request received -> assess the risk
+assess the risk -> carry out an advanced risk assessment
+res: notify costumer with the result of the assessment + organize disbursement
+
+test # 30
+credit card request received -> assess the risk
+assess the risk -> carry out a simple risk assessment
+res: notify costumer with the result of the assessment + organize disbursement
+
+test # 31
+credit card request received -> assess risk
+assess risk -> carry out a simple risk assessment
+res: notify costumer with the result of the assessment + organize disbursement
+
+test # 32
+claim received
+res: register claim
+
+test # 33
+claim received -> register claim
+res: examine claim
+
+test # 34
+claim received -> register claim
+register claim -> examine claim
+res: write settlement recommendation
+
+test # 35
+claim
+res: register and examine claim
+
+test # 36
+claim -> register claim
+res: examine claim
+
+test # 37
+claim -> register claim
+register claim -> examine claim
+res: write settlement recommendation
+
+test # 38
+claim -> register claim
+register claim -> examine claim
+examine claim -> write settlement recommendation
+res: check settlement recommendation
+
+test # 39
+claim received -> check if claimant is insured
+res: accept claim
+
+test # 40
+claim received -> check if claimant is insured
+res: reject claim
+
+test # 41
+claim received -> check if claimant is insured
+check if claimant is insured -> accept claim
+res: evaluate Severity of claim
+
+test # 42
+claim received -> check if claimant is insured
+check if claimant is insured -> accept claim
+accept claim -> evaluate Severity of claim
+evaluate Severity of claim -> send relevant forms
+send relevant forms -> receive relevant forms

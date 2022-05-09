@@ -1,0 +1,105 @@
+,label,activity,real_activity
+0,0,onlineApplicationreceived,online Application received 
+1,1,evaluatetheApplication,evaluate the Application 
+2,2,notifythecustomerbyemail,notify the customer by email 
+3,3,Applicationrejected,Application rejected 
+4,4,createanewbankaccount,create a new bank account 
+5,5,sendawelcomepackinaletter,send a welcome pack in a letter 
+6,6,sendabankcardinaletter,send a bank card in a letter 
+7,7,sendaPINnumberinaletter,send a PIN number in a letter 
+8,8,Anewbankaccountwascreated,A new bank account was created 
+9,9,requestreceived,request received 
+10,10,evaluaterequest,evaluate request 
+11,11,acceptrequest,accept request 
+12,12,rejectrequest,reject request 
+13,13,Endprocess,End process 
+14,14,sss,"send a welcome pack in a letter, send a bank card in a letter, send a PIN number in a letter "
+15,15,creditcardrequestreceived,credit card request received 
+16,16,assessrisk,assess risk 
+17,17,carryoutanadvancedriskassessment,carry out an advanced risk assessment 
+18,18,carryoutasimpleriskassessment,carry out a simple risk assessment 
+19,19,notifycostumerwiththeresultoftheassessment,notify costumer with the result of the assessment 
+20,20,organizedisbursement,organize disbursement 
+21,21,creditcardrequestaccepted,credit card request accepted 
+22,22,claim,claim 
+23,23,registerclaim,register claim 
+24,24,examineclaim,examine claim 
+25,25,writesettlementrecommendation,write settlement recommendation 
+26,26,checkthesettlementrecommendation,check the settlement recommendation 
+27,27,proceedhandlingprocess,proceed handling process 
+28,28,claimclosed,claim closed 
+29,29,evaluaterecommendation,evaluate recommendation 
+30,30,sendbackrecommendation,send back recommendation 
+31,31,rewritesettlementofrecommendation,rewrite settlement of recommendation 
+32,32,checkclaim,check claim 
+33,33,sendbacktoclaimofficer,send back to claim officer 
+34,34,registerandexamineclaim,register and examine claim 
+35,35,"markclaim""OK""","mark claim ""OK"" "
+36,36,"markclaim""NotOK""","mark claim ""Not OK"" "
+37,37,sentlock,sent lock 
+38,38,markclaim,mark claim 
+39,39,claimreceived,claim received 
+40,40,checkifclaimantisinsured,check if claimant is insured 
+41,41,acceptclaim,accept claim 
+42,42,rejectclaim,reject claim 
+43,43,evaluateSeverityofclaim,evaluate Severity of claim 
+44,44,sendrelevantforms,send relevant forms 
+45,45,receiverelevantforms,receive relevant forms 
+46,46,checkforcompleteness,check for completeness 
+47,47,informclaimant,inform claimant 
+48,48,registerclaim,register claim 
+49,49,receiveupdatedforms,receive updated forms 
+50,50,claimrejected,claim rejected 
+51,51,claimaccepted,claim accepted 
+52,52,claimsubmitted,claim submitted 
+53,53,checkcompleteness,check completeness 
+54,54,performassessment,perform assessment 
+55,55,contactgarage,contact garage 
+56,56,schedulepayment,schedule payment 
+57,57,sendletteraboutoutcome,send letter about outcome 
+58,58,checkdocumentation,check documentation 
+59,59,registerdocumentation,register documentation 
+60,60,checkinsurance,check insurance 
+61,61,performassessment,perform assessment 
+62,62,neworder,new order 
+63,63,receiveorderbyLieferando,receive order by Lieferando 
+64,64,receiveorderbywebsite,receive order by website 
+65,65,takeorderbyphone,take order by phone 
+66,66,confirmorder,confirm order 
+67,67,writedownorder,write down order 
+68,68,printoutorder,print out order 
+69,69,attachordertopinboard,attach order to pin board 
+70,70,orderprocessfinished,order process finished 
+71,71,automaticnotification,automatic notification 
+72,72,sendcomplexforms,send complex forms 
+73,73,sendsimpleforms,send simple forms 
+74,74,receiveforms,receive forms 
+75,75,informcustomertoupdateforms,inform customer to update forms 
+76,76,registerinclaimsmanagementsystem,register in claims management system 
+77,77,claimprocessed,claim processed 
+78,78,sendupdaterequest,send update request 
+79,79,claimregistered,claim registered 
+80,80,informclaimanttoupdateforms,inform claimant to update forms 
+81,81,processended,process ended 
+82,82,wiserequestback,wise request back 
+83,83,Endevent,End event 
+84,84,Retrievethefile,Retrieve the file 
+85,85,checkacceptableforfiling,check acceptable for filing 
+86,86,checkcomplianceofthedescription,check compliance of the description 
+87,87,setahearingdate,set a hearing date 
+88,88,requestforcompensationreceived,request for compensation received 
+89,89,checkrequest,check request 
+90,90,producefeesnotice,produce fees notice 
+91,91,waitforownertopaythefees,wait for owner to pay the fees 
+92,92,allocatehearing,allocate hearing 
+93,93,hearingallocated,hearing allocated 
+94,94,checkifrequestisacceptableforfiling,check if request is acceptable for filing 
+95,95,checkifrequestiscompliantwiththedescriptionofthepremise,check if request is compliant with the description of the premise 
+96,96,checkifrequestisacceptable,check if request is acceptable 
+97,97,checkifrequestiscompliant,check if request is compliant 
+98,98,sethearingdate,set hearing date 
+99,99,informcustomer,inform customer 
+100,100,phonegarage,phone garage 
+101,101,assessclaim,assess claim 
+102,102,arrangerepair,arrange repair 
+103,103,notifycostumer,notify costumer 

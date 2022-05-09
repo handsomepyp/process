@@ -34,7 +34,7 @@ v 32 checkclaim check claim
 v 33 sendbacktoclaimofficer send back to claim officer
 v 34 registerandexamineclaim register and examine claim
 v 35 markclaim"OK" mark claim "OK"
-v 36 markclaim"Not OK" mark claim "Not OK"
+v 36 markclaim"NotOK" mark claim "Not OK"
 v 37 sentlock sent lock
 v 38 markclaim mark claim
 v 39 claimreceived claim received
@@ -69,5 +69,36 @@ v 67 writedownorder write down order
 v 68 printoutorder print out order
 v 69 attachordertopinboard attach order to pin board
 v 70 orderprocessfinished order process finished
-
-
+v 71 automaticnotification automatic notification
+v 72 sendcomplexforms send complex forms
+v 73 sendsimpleforms send simple forms
+v 74 receiveforms receive forms
+v 75 informcustomertoupdateforms inform customer to update forms
+v 76 registerinclaimsmanagementsystem register in claims management system
+v 77 claimprocessed claim processed
+v 78 sendupdaterequest send update request
+v 79 claimregistered claim registered
+v 80 informclaimanttoupdateforms inform claimant to update forms
+v 81 processended process ended
+v 82 wiserequestback wise request back
+v 83 Endevent End event
+v 84 Retrievethefile Retrieve the file
+v 85 checkacceptableforfiling check acceptable for filing
+v 86 checkcomplianceofthedescription check compliance of the description
+v 87 setahearingdate set a hearing date
+v 88 requestforcompensationreceived request for compensation received
+v 89 checkrequest check request
+v 90 producefeesnotice produce fees notice
+v 91 waitforownertopaythefees wait for owner to pay the fees
+v 92 allocatehearing allocate hearing
+v 93 hearingallocated hearing allocated
+v 94 checkifrequestisacceptableforfiling check if request is acceptable for filing
+v 95 checkifrequestiscompliantwiththedescriptionofthepremise check if request is compliant with the description of the premise
+v 96 checkifrequestisacceptable check if request is acceptable
+v 97 checkifrequestiscompliant check if request is compliant
+v 98 sethearingdate set hearing date
+v 99 informcustomer inform customer
+v 100 phonegarage phone garage
+v 101 assessclaim assess claim
+v 102 arrangerepair arrange repair
+v 103 notifycostumer notify costumer

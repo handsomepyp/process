@@ -1,0 +1,359 @@
+G 1
+test # 1
+Online application received
+result: evaluate the application
+
+test # 2
+Online application received -> evaluate the application
+result: notify customer
+
+test # 3
+Online application received -> evaluate the application
+evaluate the application -> notify customer
+result: application rejected
+
+test # 4
+Online application received -> evaluate the application
+result: create a new bank account
+
+test # 5
+Online application received -> evaluate the application
+evaluate application -> create a new bank account
+result: send welcome pack + send bank card + send a PIN number
+
+test # 6
+Online application received -> evaluate application
+evaluate application -> create a new bank account
+create a new bank account -> send welcome pack
+create a new bank account -> send bank card
+create a new bank account -> send a PIN number
+result: bank account created
+
+G 2
+
+G 3
+
+test # 7
+credit request received
+result: assess risk
+
+test # 8
+credit request received -> assess risk
+result: Carry out advanced risk assessment
+
+test # 9
+credit request received -> assess risk
+result: Carry out simple risk assessment
+
+test # 10
+credit request received -> assess risk
+assess risk -> Carry out advanced risk assessment
+result: notify customer with result + organize disbursement
+
+test # 11
+credit request received -> assess risk
+assess risk -> Carry out simple risk assessment
+result: notify customer with result + organize disbursement
+
+test # 12
+credit request received -> assess risk
+assess risk -> Carry out simple risk assessment
+Carry out simple risk assessment -> notify customer with result
+Carry out simple risk assessment -> Organize disbursement
+result: Credit request processed
+
+test # 13
+credit request received -> assess risk
+assess risk -> Carry out advanced risk assessment
+Carry out advanced advanced assessment -> notify customer with result
+Carry out advanced advanced assessment -> Organize disbursement
+result: Credit request processed
+
+G 4
+
+G 5
+test # 14
+claim
+result: register and examine claim
+
+test # 15
+claim -> register and examine claim
+result: write settlement recommendation
+
+test # 16
+claim -> register and examine claim
+register and examine claim -> write settlement recommendation
+result: check the settlement recommendation
+
+test # 17
+claim -> register and examine claim
+register and examine claim -> write settlement recommendation
+write settlement recommendation -> check recommendation
+result: mark claim as "NOT OK"
+
+test # 18
+claim -> register and examine claim
+register and examine claim -> write settlement recommendation
+write settlement recommendation -> check recommendation
+result: mark claim as "OK"
+
+test # 19
+claim -> register and examine claim
+register and examine claim -> write settlement recommendation
+write settlement recommendation -> check recommendation
+check recommendation -> mark claim as "OK"
+result: send back to claim officer
+
+G 6
+G 7
+test # 20
+claim received
+result: check insurance
+
+test # 21
+claim received -> check insurance
+result: send notification
+
+test # 22
+claim received -> check insurance
+check insurance -> send notification
+result: evaluate severity
+
+test # 23
+claim received -> check insurance
+check insurance -> send notification
+evaluate severity -> send forms
+result: check completeness
+
+test # 24
+claim received -> check insurance
+check insurance -> send notification
+evaluate severity -> send forms
+send forms -> check completeness
+result: register claim
+
+G 8
+G 9
+
+test # 25
+request for compensation
+result: retrieve file
+
+test # 26
+request for compensation -> retrieve file
+retrieve file -> check both acceptable and compliant
+result: set date hearing
+
+test # 27
+request for compensation -> retrieve file
+retrieve file -> check both acceptable and compliant
+check both acceptable and compliant -> set date hearing
+result: check payment of fee
+
+test # 28
+request for compensation -> retrieve file
+retrieve file -> check both acceptable and compliant
+check both acceptable and compliant -> set date hearing
+set date hearing -> check payment of fee
+result: allocate hearing date
+
+G 10
+G 11
+
+test # 29
+check for completeness
+result: register claim
+
+test # 30
+check for completeness -> register claim
+result: pick up claim and check insurance
+
+test # 31
+check for completeness -> register claim
+register claim -> pick up claim and check insurance
+result: perform assessment
+
+test # 32
+check for completeness -> register claim
+register claim -> pick up claim and check insurance
+pick up claim and check insurance -> perform assessment
+result: phone garage
+
+test # 33
+check for completeness -> register claim
+register claim -> pick up claim and check insurance
+pick up claim and check insurance -> perform assessment
+perform assessment -> phone garage
+result: schedule payment
+
+G 12
+G 13
+test # 34
+new order
+result: receive by Lieferando
+
+test # 35
+new order
+result: receive by website
+
+test # 36
+new order
+result: take order by phone
+
+test # 37
+new order -> take order by phone
+result: write down order
+
+test # 38
+new order -> take order by phone
+take order by phone -> write down order
+result: attach to pin board
+
+test # 39
+new order -> receive by Lieferando
+result: confirm order
+
+test # 40
+new order -> receive by Lieferando
+receive by Lieferando -> confirm order
+result: print order
+
+test # 41
+new order -> receive by website
+result: print order
+
+test # 42
+new order -> receive by website
+receive by website -> print order
+result: attach to pin board
+
+G 14
+
+test # 100
+online Application received
+result: evaluate the application
+
+test # 101
+online Application received -> evaluate the Application
+result: notify the customer by email
+
+test # 102
+online Application received -> evaluate the Application
+evaluate the Application -> notify the customer by email
+result: Application rejected
+
+test # 103
+online Application received -> evaluate the Application
+evaluate the Application -> create a new bank account
+create a new bank account -> send a welcome pack in a letter
+create a new bank account -> send a bank card in a letter
+create a new bank account -> send a PIN number in a letter
+result: a new bank account was created
+
+test # 104
+online Application received -> evaluate the Application
+evaluate the Application -> create a new bank account
+result: send a welcome pack in a letter + send a bank card in a letter + send a PIN number in a letter
+
+test # 105
+credit card request received
+result: assess risk
+
+test # 106
+credit card request received -> assess risk
+result: carry out an advanced risk assessment
+
+test # 107
+credit card request received -> assess risk
+result: carry out an simple risk assessment
+
+test # 108
+credit card request received -> assess risk
+assess risk -> carry out a simple risk assessment
+
+test # 109
+credit card request received -> assess risk
+assess risk -> carry out an advanced risk assessment
+
+test # 110
+credit card request received -> assess risk
+assess risk -> carry out an advanced risk assessment
+carry out an advanced risk assessment -> notify costumer with the result of the assessment
+carry out an advanced risk assessment -> organize disbursement
+
+
+test # 111
+claim received
+result: check if claimant is insured
+
+test # 112
+claim received -> check if claimant is insured
+result: evaluate severity of claim
+
+test # 113
+claim received -> check if claimant is insured
+result: send automatic reject email
+
+test # 114
+claim received -> check if claimant is insured
+check if claimant is insured -> evaluate severity of claim
+result: send simple forms
+
+test # 115
+claim received -> check if claimant is insured
+check if claimant is insured -> evaluate severity of claim
+evaluate severity of claim -> send simple forms
+result: check for completeness
+
+test # 116
+claim received -> check if claimant is insured
+check if claimant is insured -> evaluate severity of claim
+evaluate severity of claim -> send complex forms
+result: check for completeness
+
+test # 117
+claim received -> check if claimant is insured
+check if claimant is insured -> evaluate severity of claim
+evaluate severity of claim -> send complex forms
+send complex forms -> check for completeness
+result: register claims
+
+test # 118
+claim received -> check if claimant is insured
+check if claimant is insured -> evaluate severity of claim
+evaluate severity of claim -> send complex forms
+send complex forms -> check for completeness
+result: inform claimant to update forms
+
+test # 119
+check completeness -> register claim
+result: perform assessment
+
+test # 120
+check completeness -> register claim
+register claim -> perform assessment
+result: contact garage
+
+test # 121
+check completeness -> register claim
+register claim -> perform assessment
+perform assessment -> contact garage
+result: schedule payment
+
+test # 122
+check completeness -> register claim
+register claim -> perform assessment
+perform assessment -> contact garage
+contact garage -> schedule payment
+result: send letter about outcome
+
+test # 123
+check for completeness -> register claim
+result: assess claim
+
+test # 124
+check for completeness -> register claim
+register claim -> assess claim
+result: phone garage + schedule payment
+
+test # 125
